@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Getting Started"
-date: "2018-04-28 10:32:13 -0700"
-tags: [test, help, docs, installing]
+title: "Almost ready to release V 1.0 of Github-UiKit"
+date: "2021-12-03 10:32:13 -0700"
+tags: [github-uikit, github, cms, blog, jekyll]
 ---
 
-Jekyll-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
+Github-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
 
 <!--more-->
 
