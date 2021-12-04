@@ -6,12 +6,14 @@ permalink: /contact
 ---
 
 <div uk-grid>
-<div class="uk-width-1-2@m">
-<p>phone: 805.235.7575</p>
+<div class="uk-width-1-2@m uk-text-large">
+<div>
+<p>phone: <img src="{{"/assets/img/phone.svg" | relative_url}}" width="180" height="24" alt="phone" class="uk-inline uk-margin-left" uk-svg></p>
 
-<p>email: isaacjosephhorton@gmail.com</p>
-<p>email: slodesigngroup@gmail.com</p>
-</div>
+<p>email: <img src="{{"/assets/img/isaac-email.svg" | relative_url}}" width="328" height="24" alt="isaac email" class="uk-inline uk-margin-left" uk-svg></p>
+<p>email: <img src="{{"/assets/img/sdg-email.svg" | relative_url}}" width="295" height="24" alt="svg email" class="uk-inline uk-margin-left" uk-svg></p>
+<p>&nbsp;</p>
+</div></div>
 <div class="uk-width-1-2@m">
 {% include contact-form.html %}
 </div>
