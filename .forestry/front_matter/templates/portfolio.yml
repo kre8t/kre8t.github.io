@@ -1,4 +1,19 @@
 ---
 label: Portfolio
 hide_body: false
-fields: []
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: Title
+- name: image
+  type: file
+  config:
+    maxSize: 64
+  label: Image
+- name: multiple_images
+  type: image_gallery
+  config: {}
+  label: Multiple Images
+  description: If there are multiple images in this collection, upload them here.
