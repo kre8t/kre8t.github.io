@@ -56,9 +56,13 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 
 
 # 5. Collections
-# Not using collections at this time
+collections:
+  portfolio_items:
+    output: true
+    permalink: /portfolio_items/:path/
+
 # 6. Jekyll collections settings
-# Not using collections at this time
+
 
 # 7. Site settings
 name: Isaac Joseph Horton
