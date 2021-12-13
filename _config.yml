@@ -62,7 +62,12 @@ collections:
     permalink: /portfolio/:path/
 
 # 6. Jekyll collections settings
-
+defaults:
+  - scope:
+      path: ""
+      type: "portfolio_items"
+    values:
+      layout: "portfolio"
 
 # 7. Site settings
 name: Isaac Joseph Horton
