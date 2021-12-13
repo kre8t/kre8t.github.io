@@ -3,23 +3,26 @@ layout: homepage
 ---
 
 <body>
-  <div class="uk-background-cover uk-background-top-center" style="background-image: url({{ "/assets/img/senbg.jpg" | relative_url }});">
+  <div class="uk-background-contain uk-background-center-right" style="background-image: url({{ "/assets/img/sm-blu-balls.svg" | relative_url }});background-color:ddd;" uk-height-expand>
 
+<div>
 	 {% include header.html %}
     <div class="uk-section uk-section-large">
 	       
         <div class="intro-text uk-container">
-	         
-          <div class="uk-heading-medium uk-width-1-2@m">Welcome to my site and portfolio.<br>
-	          I design, code, solve. Hire me.</div>
+	      <div>
+          <div class="uk-heading-medium">Design, <br>Animation. <br>Visualization.</div>
    
             
              <a class="uk-button uk-button-secondary" href="/contact">Contact</a>
 
+        </div> 
         </div>
-
+ 		
+    </div>
     </div>
   </div>
+
 {% include sections/currentprojects.html %}
 {% include sections/collaborate.html %}
 
