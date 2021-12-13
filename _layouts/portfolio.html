@@ -25,7 +25,7 @@ layout: default
   <div class="uk-section">
 	  <div class="uk-container">
 	    <article class="uk-article">
-		    {{page.image}}
+		   <img src="{{ page.image }}" alt="{{ page.title | downcase }}">
 	      {{content}}
 	      {% include buymeacoffee.html %}
 	    </article>
