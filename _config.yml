@@ -59,7 +59,7 @@ timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_databas
 collections:
   portfolio_items:
     output: true
-    permalink: /portfolio_items/:path/
+    permalink: /portfolio/:path/
 
 # 6. Jekyll collections settings
 
