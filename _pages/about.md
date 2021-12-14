@@ -4,7 +4,6 @@ title: About Jekyll-UiKit
 bigimg: /assets/img/uikit.jpg
 ---
 
-![Jekyll-UiKit](/Screenshot.png)
 
 Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, blog and archive pages, and lighting fast search with Algolia. Build a simple and beautiful website or blog in a few hours or less.
 
