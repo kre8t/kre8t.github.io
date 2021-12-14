@@ -4,6 +4,7 @@ title: Portfolio
 subheading: The works of IJH
 permalink: /portfolio
 ---
+
 <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid>
 {% for portfolio_item in site.portfolio_items %}
 	 <div>
