@@ -18,5 +18,4 @@ fields:
   label: Multiple Images
   description: If there are multiple images in this collection, upload them here.
 pages:
-- _portfolio_items/ladies-chatting.md
 - _portfolio_items/waddle-logo.md
