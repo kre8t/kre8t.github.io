@@ -10,8 +10,8 @@ permalink: /portfolio
 
 	    <div class="uk-animation-toggle" tabindex="0">
         <div class="uk-card uk-card-default uk-animation-slide-top-small">
-            <div class="uk-card-media-top">
-               <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/" class=""> <img src="{{portfolio_item.image}}" alt=""></a>
+            <div class="uk-card-media-top uk-background-cover" style="background-image:url({{portfolio_item.image}});">
+               <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/" class="uk-overlay uk-height-small"></a>
 	</div>
         </div>
     </div>
