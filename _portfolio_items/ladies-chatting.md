@@ -1,5 +1,6 @@
 ---
 title: Ladies Chatting
+client: Picasso Wines
 image: "/assets/img/uploads/ladies-chatting.svg"
 multiple_images: []
 svg: true

@@ -1,5 +1,6 @@
 ---
 title: Waddle Logo
+client: Waddle
 image: "/assets/img/uploads/worbb-logo.jpg"
 multiple_images: []
 layout: portfolio

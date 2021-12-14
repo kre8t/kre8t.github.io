@@ -2,19 +2,8 @@
 layout: default
 ---
 
+<hr class="uk-margin-remove-top">
 
-<div class="uk-container-expand uk-background-cover uk-background-top-center">
-  <div class="uk-section-xsmall uk-padding-remove-bottom">
-    <div>
-      <div class="uk-container">
-	      
-       
-      </div>
-    </div>
-    <hr>
- </div>
- </div>
- 
 <div>
   <div class="uk-section-xsmall">
 	  <div class="uk-container">
@@ -33,10 +22,12 @@ layout: default
 	    <div class="uk-width-1-4@l ">
 		    <div class="uk-card uk-card-secondary uk-card-body">
 			     <h5>Title:<br> {{page.title}}</h5>
+			     {% if page.client %}<h5>Client:<br>{{page.client}}</h5>{% endif %}
 			     {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
 			      <h5>Date:<br></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
 		    {{content}}
 		    </div>
+		      {% include post-pagination.html %}
 	    </div>
 	    
 		  </div>
