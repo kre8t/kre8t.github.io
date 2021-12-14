@@ -9,6 +9,5 @@ client: Slo Design Group
 image: "/assets/img/uploads/geometric-shapes-01.svg"
 multiple_images: []
 svg: true
-published: false
 
 ---
