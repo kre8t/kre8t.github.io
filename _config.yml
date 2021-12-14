@@ -114,7 +114,7 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
-      
+
   - scope:
       path: ""
       type: "portfolio_items"

@@ -5,24 +5,24 @@ subheading: The works of IJH
 permalink: /portfolio
 ---
 
-<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-collapse" uk-grid uk-height-match="target: > div > .uk-card > .uk-card-media-top">   
-  {% for portfolio_item in site.portfolio_items %}    
+<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-collapse" uk-grid uk-height-match="target: > div > .uk-card > .uk-card-media-top">
+  {% for portfolio_item in site.portfolio_items %}
 
-	    <div class="uk-animation-toggle" tabindex="0">
-        <div class="uk-card uk-card-default uk-animation-slide-top-small">
-            <div class="uk-card-media-top uk-background-cover uk-height-small" style="background-image:url({{portfolio_item.image}});">
-               <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/" class="uk-display-block uk-height-small"></a>
-	</div>
-        </div>
+  <div class="uk-animation-toggle" tabindex="0">
+    <div class="uk-card uk-card-default uk-animation-fade">
+      <div class="uk-card-media-top uk-background-cover uk-height-small" style="background-image:url({{portfolio_item.image}});">
+        <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/" class="uk-display-block uk-height-small"></a>
+      </div>
     </div>
-	
-												     
-{% endfor %}
-													     
+  </div>
+
+
+  {% endfor %}
+
 </div>
 
 <div class="uk-width-1-2@m">
-Binkity Bonk. Let's make some fun designs!
+  Binkity Bonk. Let's make some fun designs!
 </div>
 <div class="uk-width-1-2@m">
 
