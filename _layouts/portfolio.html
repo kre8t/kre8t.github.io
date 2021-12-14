@@ -2,6 +2,13 @@
 layout: default
 ---
 
+<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid>
+{% for portfolio_item in site.portfolio_items %}
+	 <div>
+	    <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/"><img src="{{page.image}}"></a>
+	 </div>
+{% endfor %}
+</div>
 <div class="uk-container-expand uk-background-cover uk-background-top-center" style="background-image: url({{ page.bigimg | relative_url }})">
   <div id="page" class="uk-section uk-padding-remove-bottom">
     {% if page.bigimg %}
