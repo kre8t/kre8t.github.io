@@ -35,6 +35,7 @@ fields:
     date_format: 
     time_format: 
     display_utc: false
+  default: now
 - name: tags
   type: tag_list
   default: []
@@ -42,4 +43,5 @@ fields:
 pages:
 - _portfolio_items/ladies-chatting.md
 - _portfolio_items/sandbar-surf-poster-animation.md
+- _portfolio_items/stroke-animation.md
 - _portfolio_items/waddle-logo.md
