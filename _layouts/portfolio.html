@@ -27,9 +27,10 @@ layout: default
 	  <div class="uk-container">
 	    <article class="uk-article">
 		    {% if page.svg %}
-		    asdfasdf
-		    {% endif %}
+		     <img src="{{ page.image }}" alt="{{ page.title | downcase }}" uk-svg>
+		    {% else %}
 		   <img src="{{ page.image }}" alt="{{ page.title | downcase }}">
+		    {% endif %}
 	      {{content}}
 	      {% include buymeacoffee.html %}
 	    </article>
