@@ -5,29 +5,41 @@ layout: default
 
 <div class="uk-container-expand uk-background-cover uk-background-top-center">
   <div class="uk-section-xsmall uk-padding-remove-bottom">
-
     <div>
       <div class="uk-container">
-	      {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
-        <h3 class="uk-heading-small uk-margin-remove-top">{{page.title}}</h3>
+	      
+       
       </div>
     </div>
     <hr>
-  
-  </div>
-    </div>
+ </div>
+ </div>
+ 
 <div>
   <div class="uk-section-xsmall">
 	  <div class="uk-container">
-	    <article class="uk-article">
+		  <div uk-grid>
+	    <article class="uk-article uk-width-3-4@l">
+		    <div uk-lightbox>
 		    {% if page.svg %}
-		     <img src="{{ page.image }}" alt="{{ page.title | downcase }}">
+		     <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
 		    {% else %}
-		   <img src="{{ page.image }}" alt="{{ page.title | downcase }}">
+		   <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
 		    {% endif %}
-	      {{content}}
-	      {% include buymeacoffee.html %}
+			    
+		    </div>
 	    </article>
+	    
+	    <div class="uk-width-1-4@l ">
+		    <div class="uk-card uk-card-secondary uk-card-body">
+			     <h5>Title:<br> {{page.title}}</h5>
+			     {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
+			      <h5>Date:<br></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
+		    {{content}}
+		    </div>
+	    </div>
+	    
+		  </div>
      </div>
   </div>
   {% include totop.html %}
