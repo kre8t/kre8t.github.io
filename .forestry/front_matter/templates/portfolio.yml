@@ -7,6 +7,11 @@ fields:
   config:
     required: false
   label: Title
+- name: client
+  type: text
+  config:
+    required: false
+  label: Client
 - name: image
   type: file
   config:
