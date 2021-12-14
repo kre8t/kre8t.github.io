@@ -21,6 +21,19 @@ fields:
   type: boolean
   label: SVG
   description: Check if this is an SVG file.
+- name: date
+  type: datetime
+  label: Date
+  description: Choose the publish date
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: tags
+  type: tag_list
+  default: []
+  label: Tags
 pages:
 - _portfolio_items/ladies-chatting.md
 - _portfolio_items/waddle-logo.md
