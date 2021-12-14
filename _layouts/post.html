@@ -2,11 +2,11 @@
 layout: default
 ---
 
-<div class="uk-container-expand uk-animation-slide-top-small">
+<div class="uk-container-expand">
   <div id="blog" class="uk-section-default">
     {% if page.bigimg %}
     <div class="uk-section-large uk-light uk-background-fixed uk-background-cover uk-background-bottom-center" style="background-image: url({{ page.bigimg | relative_url }})">
-      <div class="intro-text uk-container uk-padding-large">
+      <div class="intro-text uk-container uk-padding-large uk-animation-slide-top-small">
         <h2 class="uk-heading-primary">{{page.title}}</h2>
         <p class="uk-article-meta">
           <span uk-icon="calendar"></span> <time class="date">{{page.date | date: "%b %d, %Y "}}</time>
@@ -18,7 +18,7 @@ layout: default
     </div>
     {% else %}
     <div>
-      <div class="uk-container uk-padding-large">
+      <div class="uk-container uk-padding-large uk-padding-remove-bottom">
         <h2 class="uk-heading-primary">{{page.title}}</h2>
         <p class="uk-article-meta">
           <span uk-icon="calendar"></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span>
@@ -32,7 +32,7 @@ layout: default
     <hr class="uk-divider-icon">
     {% endif %}
   </div>
-  <div class="uk-section uk-container uk-padding-large">
+  <div class="uk-section uk-container uk-padding-large uk-padding-remove-top">
     <article class="uk-article">
       {{content}}
     </article>
