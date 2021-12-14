@@ -5,10 +5,10 @@ subheading: The works of IJH
 permalink: /portfolio
 ---
 
-<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-match" uk-grid>   
+<div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-child-width-1-6@l uk-grid-match uk-grid-collapse" uk-grid>   
   {% for portfolio_item in site.portfolio_items %}    
-   <div>
-	    <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/"><img src="{{portfolio_item.image}}"></a>
+   <div class="uk-background-cover" style="background-image:url({{portfolio_item.image}});">
+	    <a href="{{site.baseurl}}/portfolio/{{portfolio_item.slug}}/" class="uk-overlay"></a>
 </div>
 													     
 {% endfor %}
