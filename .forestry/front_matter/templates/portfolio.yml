@@ -22,4 +22,5 @@ fields:
   label: SVG
   description: Check if this is an SVG file.
 pages:
+- _portfolio_items/ladies-chatting.md
 - _portfolio_items/waddle-logo.md
