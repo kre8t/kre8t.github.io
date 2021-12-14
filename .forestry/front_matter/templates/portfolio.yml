@@ -17,5 +17,9 @@ fields:
   config: {}
   label: Multiple Images
   description: If there are multiple images in this collection, upload them here.
+- name: svg
+  type: boolean
+  label: SVG
+  description: Check if this is an SVG file.
 pages:
 - _portfolio_items/waddle-logo.md
