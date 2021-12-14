@@ -26,6 +26,9 @@ layout: default
   <div class="uk-section">
 	  <div class="uk-container">
 	    <article class="uk-article">
+		    {% if page.svg %}
+		    asdfasdf
+		    {% endif %}
 		   <img src="{{ page.image }}" alt="{{ page.title | downcase }}">
 	      {{content}}
 	      {% include buymeacoffee.html %}
