@@ -4,14 +4,8 @@ layout: default
 
 
 <div class="uk-container-expand uk-background-cover uk-background-top-center" style="background-image: url({{ page.bigimg | relative_url }})">
-  <div id="page" class="uk-section uk-padding-remove-bottom">
-    {% if page.bigimg %}
-    <div class="uk-container uk-light" >
-      <div class="intro-text">
-        <h3 class="uk-heading-medium">{{page.title}}</h3>
-      </div>
-    </div>
-    {% else %}
+  <div id="page" class="uk-section-small uk-padding-remove-bottom">
+
     <div>
       <div class="uk-container">
 	      {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
@@ -19,7 +13,7 @@ layout: default
       </div>
     </div>
     <hr>
-    {% endif %}
+  
   </div>
     </div>
 <div>
