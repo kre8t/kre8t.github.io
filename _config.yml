@@ -61,14 +61,6 @@ collections:
     output: true
     permalink: /portfolio/:path/
 
-# 6. Jekyll collections settings
-defaults:
-  - scope:
-      path: ""
-      type: "portfolio_items"
-    values:
-      layout: "portfolio"
-
 # 7. Site settings
 name: Isaac Joseph Horton
 title: IJH
@@ -122,7 +114,12 @@ defaults:
     values:
       layout: "page"
       show-avatar: true
-
+      
+  - scope:
+      path: ""
+      type: "portfolio_items"
+    values:
+      layout: "portfolio"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
