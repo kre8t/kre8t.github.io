@@ -41,6 +41,7 @@ fields:
   default: []
   label: Tags
 pages:
+- _portfolio_items/galactic.md
 - _portfolio_items/gemetric-shapes.md
 - _portfolio_items/ladies-chatting.md
 - _portfolio_items/red-tower.md
