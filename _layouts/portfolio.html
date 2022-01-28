@@ -15,21 +15,21 @@ layout: default
 		    {% else %}
 		   <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
 		    {% endif %}
-			    
+
 		    </div>
 	    </article>
-	    
+
 	    <div class="uk-width-1-4@l ">
-		    <div class="uk-card uk-card-secondary uk-card-body">
-			     <h5>Title:<br> {{page.title}}</h5>
-			     {% if page.client %}<h5>Client:<br>{{page.client}}</h5>{% endif %}
+		    <div class="uk-card">
+			     <h6 class="uk-margin-remove-bottom">Title:</h6> <h5 class="uk-margin-remove-top">{{page.title}}</h5>
+			     {% if page.client %}<h6 class="uk-margin-remove-bottom">Client:</h6><h5 class="uk-margin-remove-top">{{page.client}}</h5>{% endif %}
 			     {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
-			      <h5>Date:<br></span> <span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
+			      <h6 class="uk-margin-remove-bottom">Date:</h6> <h5 class="uk-margin-remove-top"><span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
 		    {{content}}
 		    </div>
 		      {% include post-pagination.html %}
 	    </div>
-	    
+
 		  </div>
      </div>
   </div>
