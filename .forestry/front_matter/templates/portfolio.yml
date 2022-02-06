@@ -41,5 +41,6 @@ fields:
   default: []
   label: Tags
 pages:
+- _portfolio_items/rare-raven-nft-7.md
 - _portfolio_items/teahupoo-surf-resort-illustration.md
 - _portfolio_items/wake-ride-repeat.md
