@@ -17,3 +17,5 @@ fields:
     maxSize: 64
   label: Big Image
   description: Background Header
+pages:
+- _posts/release-of-sandbar-surf-school-site-redesign.md
