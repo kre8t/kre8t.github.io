@@ -14,3 +14,9 @@ fields:
 - type: list
   name: tags
   label: tags
+- name: bigimg
+  type: file
+  config:
+    maxSize: 64
+  label: Big Image
+  description: Background Header
