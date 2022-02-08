@@ -1,16 +1,20 @@
 ---
 layout: post
-title: "Almost ready to release V 1.0 of Github-UiKit"
-date: "2021-12-03 10:32:13 -0700"
-tags: [github-uikit, github, cms, blog, jekyll]
----
+title: Almost ready to release V 1.0 of Github-UiKit
+date: 2021-12-03 10:32:13 -0700
+tags:
+- github-uikit
+- github
+- cms
+- blog
+- jekyll
 
+---
 Github-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
 
 <!--more-->
 
 ## Installing the Theme
-
 
 If you're running Jekyll v3.5+ and self-hosting you can quickly install the theme as a Ruby gem.
 
@@ -22,13 +26,13 @@ If you're running Jekyll v3.5+ and self-hosting you can quickly install the them
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "jekyll-uikit"
+gem "github-uikit"
 ```
 
 Add this line to your Jekyll site's `_config.yml` file:
 
 ```yaml
-theme: jekyll-uikit
+theme: github-uikit
 ```
 
 Then run Bundler to install the theme gem and dependencies:
@@ -37,104 +41,78 @@ Then run Bundler to install the theme gem and dependencies:
 bundle install
 ```
 
-### GitHub Pages Method
+***
 
-GitHub Pages has added [full support](https://github.com/blog/2464-use-any-theme-with-github-pages) for any GitHub-hosted theme.
+Choose from one of the following methods to install into your local drive.
 
-Replace `gem "jekyll"` with:		
+\# Clone the Github repository
 
-```ruby		
-gem "github-pages", group: :jekyll_plugins			
-```		
+First enter the following into your CLI.
 
-Run `bundle update` and verify that all gems install properly.
+\`\`\`
 
-Add `remote_theme: "jpasholk/jekyll-uikit"` to your `_config.yml` file. Remove any other `theme:` or `remote_theme:` entry.
+git clone [https://github.com/isaacjosephhorton/github-uikit.git](https://github.com/isaacjosephhorton/github-uikit.git "https://github.com/isaacjosephhorton/github-uikit.git")
 
----
+\`\`\`
 
-**Note:** Your Jekyll site should be viewable immediately at <https://USERNAME.github.io>. If it's not, you can force a rebuild by **Customizing Your Site** (see below for more details).
-{: .uk-alert-warning .uk-padding-small}
+Edit the config file in the root directory to match your site's configuration.
 
-If you're hosting several Jekyll based sites under the same GitHub username you will have to use Project Pages instead of User Pages. Essentially you rename the repo to something other than **USERNAME.github.io** and create a `gh-pages` branch off of `master`. For more details on how to set things up check [GitHub's documentation](https://help.github.com/articles/user-organization-and-project-pages/).
+run this command to build the files into the \\_site directory:
 
-You can also install the theme by copying all of the theme files into your project and removing what you don't need.
+\`\`\`
 
-To do so fork the [Jekyll-UiKit theme](https://github.com/jpasholk/jekyl-uikit/fork), then rename the repo to **USERNAME.github.io** --- replacing **USERNAME** with your GitHub username.
+bundle install
 
-**GitHub Pages Alternatives:** Looking to host your site for free and install/update the theme painlessly? [Netflify][netlify-jekyll], [GitLab Pages][gitlab-jekyll], and [Continuous Integration (CI) services][ci-jekyll] have you covered. In most cases all you need to do is connect your repository to them, create a simple configuration file, and install the theme following the [Ruby Gem Method](#ruby-gem-method) above.
-{: .uk-alert .uk-padding-small}
+\`\`\`
 
-[netlify-jekyll]: https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/
-[gitlab-jekyll]: https://about.gitlab.com/2016/04/07/gitlab-pages-setup/
-[ci-jekyll]: https://jekyllrb.com/docs/continuous-integration/
+Test the site locally with this command:
 
-### Remove the Unnecessary
+\`\`\`
 
-If you forked or downloaded the `jekyll-uikit` repo you can safely remove the following folders and files:
+bundle exec jekyll serve
 
-- `changelog.md`
-- `jekyll-uikit-jekyll.gemspec`
-- `README.md`
-- `screenshot.png`
-- Everything in `_posts`
+\`\`\`
 
-## Setup Your Site
+push the finished site to a github repository
 
-Depending on the path you took installing Jekyll-UiKit you'll setup things a little differently.
+\`\`\`
 
-### Starting Fresh
+git push -u origin master
 
+\`\`\`
 
+\# Set up navigation
 
-### Starting from `jekyll new`
+Navigation titles and links are set in the \\_data/navigation.yml file.
 
-Scaffolding out a site with the `jekyll new` command requires you to modify a few files that it creates.
+\# Built-in page layouts
 
-Edit `_config.yml`. Then:
+You can define different layouts and includes as you see fit.
 
-- Replace any variables that you'd like to change.
+Use one of the 5 following page layouts or design your own.
 
-### Migrating to Gem Version
+\* page
 
-If you're migrating a site already using Jekyll-Uikit and haven't customized any of the theme files things upgrading will be easier for you.
+\* over
 
-Start by removing the following folders and any files within them:
+\* default
 
-```terminal
-├── _includes
-├── _layouts
-├── _sass
-├── assets
-|  ├── css
-|  ├── fonts
-|  └── js
-```
+\* component
 
-You won't need these anymore as they're bundled with the theme gem --- unless you intend to [override them](https://jekyllrb.com/docs/themes/#overriding-theme-defaults).
+\* home
 
-#### Update Gemfile
+Built in \[UiKit\]([https://getuikit.com/](https://getuikit.com/ "https://getuikit.com/")){:target="_ blank"}, with an elegant homepage, blog and archive pages. Build a simple and beautiful website or blog in a few hours or less.
 
+\[!\[GitHub forks\]([https://img.shields.io/github/forks/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Fork](https://img.shields.io/github/forks/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Fork "https://img.shields.io/github/forks/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Fork"))\]([https://github.com/isaacjosephhorton/github-uikit/fork/](https://github.com/isaacjosephhorton/github-uikit/fork/ "https://github.com/isaacjosephhorton/github-uikit/fork/"))
 
-[^update-jekyll]: You could also run `bundle update jekyll` to update Jekyll.
+\[!\[GitHub stars\]([https://img.shields.io/github/stars/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Stars](https://img.shields.io/github/stars/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Stars "https://img.shields.io/github/stars/isaacjosephhorton/github-uikit.svg?style=for-the-badge&label=Stars"))\]([https://github.com/isaacjosephhorton/github-uikit/stargazers](https://github.com/isaacjosephhorton/github-uikit/stargazers "https://github.com/isaacjosephhorton/github-uikit/stargazers"))
 
-Add the Jekyll-Uikit theme gem:
+\[!\[GitHub last commit\]([https://img.shields.io/github/last-commit/isaacjosephhorton/github-uikit.svg?style=for-the-badge](https://img.shields.io/github/last-commit/isaacjosephhorton/github-uikit.svg?style=for-the-badge "https://img.shields.io/github/last-commit/isaacjosephhorton/github-uikit.svg?style=for-the-badge"))\]([https://github.com/isaacjosephhorton/github-uikit/commits/master](https://github.com/isaacjosephhorton/github-uikit/commits/master "https://github.com/isaacjosephhorton/github-uikit/commits/master"))
 
-```ruby
-gem "jekyll-uikit"
-```
+\[!\[GitHub issues\]([https://img.shields.io/github/issues-raw/isaacjosephhorton/github-uikit.svg?style=for-the-badge](https://img.shields.io/github/issues-raw/isaacjosephhorton/github-uikit.svg?style=for-the-badge "https://img.shields.io/github/issues-raw/isaacjosephhorton/github-uikit.svg?style=for-the-badge"))\]([https://github.com/isaacjosephhorton/github-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc](https://github.com/isaacjosephhorton/github-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc "https://github.com/isaacjosephhorton/github-uikit/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc"))
 
-When finished your `Gemfile` should look something like this:
+\[!\[Gem\]([https://img.shields.io/gem/dt/github-uikit?label=Gem&style=for-the-badge](https://img.shields.io/gem/dt/github-uikit?label=Gem&style=for-the-badge "https://img.shields.io/gem/dt/github-uikit?label=Gem&style=for-the-badge"))\]([https://rubygems.org/gems/github-uikit](https://rubygems.org/gems/github-uikit "https://rubygems.org/gems/github-uikit"))
 
-```ruby
-source "https://rubygems.org"
+\[!\[GitHub contributors\]([https://img.shields.io/github/contributors/isaacjosephhorton/github-uikit.svg?style=for-the-badge](https://img.shields.io/github/contributors/isaacjosephhorton/github-uikit.svg?style=for-the-badge "https://img.shields.io/github/contributors/isaacjosephhorton/github-uikit.svg?style=for-the-badge"))\]([https://github.com/isaacjosephhorton/github-uikit/graphs/contributors](https://github.com/isaacjosephhorton/github-uikit/graphs/contributors "https://github.com/isaacjosephhorton/github-uikit/graphs/contributors"))
 
-gem "jekyll", "~> 3.5"
-gem "jekyll-uikit"
-```
-
-Then run `bundle update` and add `theme: jekyl-uikit` to your `_config.yml`.
-
-That's it! If all goes well running `bundle exec jekyll serve` should spin-up your site.
-
----
+\[!\[Open Source Helpers\]([https://www.codetriage.com/isaacjosephhorton/github-uikit/badges/users.svg](https://www.codetriage.com/isaacjosephhorton/github-uikit/badges/users.svg "https://www.codetriage.com/isaacjosephhorton/github-uikit/badges/users.svg"))\]([https://www.codetriage.com/isaacjosephhorton/github-uikit](https://www.codetriage.com/isaacjosephhorton/github-uikit "https://www.codetriage.com/isaacjosephhorton/github-uikit"))
