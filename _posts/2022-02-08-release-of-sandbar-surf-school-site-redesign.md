@@ -17,3 +17,5 @@ bigimg: "/assets/img/uploads/sandbarsurf-bg.jpeg"
 [https://sandbarsurf.com](https://sandbarsurf.com "Sandbar Surf School")
 
 ![](/assets/img/uploads/screen-shot-2022-02-08-at-3-29-51-pm.png)
+
+![](/assets/img/uploads/lessons-partial.jpg)
