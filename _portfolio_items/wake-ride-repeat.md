@@ -1,11 +1,11 @@
 ---
-date: 2022-01-28 13:37:18 -0800
+date: 2022-01-28T13:37:18.000-08:00
 tags:
 - Website
 - Branding
 title: Wake, Ride, Repeat
 client: Sandbar Surf School
-image: "/assets/img/uploads/home-sandbar-surf-school-1.png"
+image: "/assets/img/uploads/ssss.jpg"
 multiple_images:
 - "/assets/img/uploads/home-sandbar-mobile.png"
 svg: false
