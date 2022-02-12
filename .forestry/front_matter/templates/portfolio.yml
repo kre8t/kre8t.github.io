@@ -41,6 +41,7 @@ fields:
   default: []
   label: Tags
 pages:
+- _portfolio_items/african-mother.md
 - _portfolio_items/afro-black.md
 - _portfolio_items/black-mamba.md
 - _portfolio_items/black-vogue.md
