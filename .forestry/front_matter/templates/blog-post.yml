@@ -17,3 +17,5 @@ fields:
     maxSize: 64
   label: Big Image
   description: Background Header
+pages:
+- _posts/inspired-by-linocut-styles-lately.md
