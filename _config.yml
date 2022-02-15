@@ -77,7 +77,8 @@ locale: en_US
 to_top: true
 
 disqus: ""
-twitter: "ijhdesigner"
+twitter: "st4rdusdt"
+instagram: "st4rdusdt"
 github: "isaacjosephhorton"
 buymeacoffee: "isaachorton"
 fb_app_id: "" # This is needed for FB Cards to work.
@@ -89,7 +90,8 @@ permalink: /:title/
 
 #footer-links
 
-Twitter: "ijhdesigner"
+Twitter: "st4rdusdt"
+Instagram: "st4rdusdt"
 GitHub: "isaacjosephhorton"
 RSS: true
 
