@@ -1,7 +1,7 @@
 ---
 layout: over
 title: Contact
-subheading: I'm easy to get a hold of
+subheading: Tell me something good
 permalink: /contact
 ---
 
