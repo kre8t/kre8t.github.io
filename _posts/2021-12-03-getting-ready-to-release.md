@@ -8,6 +8,7 @@ tags:
 - cms
 - blog
 - jekyll
+bigimg: "/assets/img/uploads/blocks.png"
 
 ---
 Github-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
