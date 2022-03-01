@@ -11,4 +11,4 @@ multiple_images:
 svg: false
 
 ---
-Sandbar Surf School is a top rated surf school. This project was focused on building a brand focus and rebuilding their website to better facilitate sales and testing marketing campaigns. The final solution incorporates sophisticated javascript functionality with a new focus of primary and secondary colors.
+Sandbar Surf School is a top rated surf school. This project was focused on building a brand focus and rebuilding their website to better facilitate sales and testing marketing campaigns. The final solution incorporates sophisticated javascript functionality with a new focus of primary and secondary colors. This is part of a multi brand series for Sandbar Surf Company.
