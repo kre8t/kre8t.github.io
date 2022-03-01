@@ -5,7 +5,7 @@ tags:
 - Branding
 title: Wake, Ride, Repeat
 client: Sandbar Surf School
-image: "/assets/img/uploads/ssss.jpg"
+image: "/assets/img/uploads/home-sandbar2.png"
 multiple_images:
 - "/assets/img/uploads/home-sandbar-mobile.png"
 svg: false
