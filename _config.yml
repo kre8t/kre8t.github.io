@@ -69,7 +69,7 @@ email: isaacjosephhorton@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Design and software solutions for business. Ecommerce expert. Usability investigator.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://isaacjosephhorton.github.io" # the base hostname & protocol for your site, e.g. https://example.com
+url: "https://kre8t.github.io" # the base hostname & protocol for your site, e.g. https://example.com
 avatar: /assets/logo.png #path/to/avatar.png
 lang: en
 locale: en_US
