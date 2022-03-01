@@ -10,3 +10,5 @@ bigimg: "/assets/img/uploads/blocks.png"
 
 ---
 Happy to release v1.0.0 of Miniml.  An open-source UI Kit.
+
+![](/assets/img/uploads/logo-black.svg)
