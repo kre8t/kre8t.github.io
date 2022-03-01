@@ -5,10 +5,10 @@ subheading: Ingredients for great design
 ---
 
 <div id="Blog" class="uk-section-small uk-padding-remove-top">
-  <div class="uk-child-width-1-2@m uk-grid-collapse" uk-grid="masonry: true">
+  <div class="uk-child-width-1-2@m" uk-grid="masonry: true">
     {% for post in paginator.posts %}
     <div>
-      <div class="uk-card">
+      <div class="uk-card uk-card-default">
         <div class="uk-card-media-top">
           <img src="{{ post.bigimg }}">
         </div>
