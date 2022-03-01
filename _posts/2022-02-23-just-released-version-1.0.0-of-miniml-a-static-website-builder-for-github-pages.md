@@ -13,4 +13,4 @@ Happy to release v1.0.0 of Miniml.  An open-source UI Kit.
 
 ![](/assets/img/uploads/logo-black.svg)
 
-![](/assets/img/uploads/screenshot.png)
+![](/assets/img/uploads/mslant-site.png)
