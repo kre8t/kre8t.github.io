@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Almost ready to release V 1.0 of Github-UiKit
-date: 2021-12-03 10:32:13 -0700
+title: Github-UiKit Migrated to Miniml
+date: 2021-12-03T10:32:13.000-07:00
 tags:
 - github-uikit
 - github
@@ -26,13 +26,13 @@ If you're running Jekyll v3.5+ and self-hosting you can quickly install the them
 Add this line to your Jekyll site's `Gemfile`:
 
 ```ruby
-gem "github-uikit"
+gem "miniml"
 ```
 
 Add this line to your Jekyll site's `_config.yml` file:
 
 ```yaml
-theme: github-uikit
+theme: miniml
 ```
 
 Then run Bundler to install the theme gem and dependencies:
