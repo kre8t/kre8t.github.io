@@ -9,9 +9,9 @@ subheading: Ingredients for great design
     {% for post in paginator.posts %}
     <div>
       <div class="uk-card">
-<div class="uk-card-media-top">
-  <img src="{{ post.bigimg }}">
-  </div>
+        <div class="uk-card-media-top">
+          <img src="{{ post.bigimg }}">
+        </div>
         <div class="uk-card-body">
           <h3><a class="uk-link-text" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
 
@@ -35,7 +35,7 @@ subheading: Ingredients for great design
         </div>
 
       </div>
-</div>
+    </div>
     {% endfor %}
 
   </div>

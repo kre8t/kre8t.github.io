@@ -5,33 +5,42 @@ layout: default
 <hr class="uk-margin-remove-top">
 
 <div>
+  <div class="uk-section-xsmall" uk-sticky>
+    <div class="uk-container">
+      <h2 class="uk-heading-small">{{page.title}}</h2>
+    </div>
+  </div>
+<hr class="uk-margin-remove-top">
   <div class="uk-section-xsmall">
-	  <div class="uk-container">
-		  <div uk-grid>
-	    <article class="uk-article uk-width-3-4@l">
-		    <div uk-lightbox>
-		    {% if page.svg %}
-		     <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
-		    {% else %}
-		   <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
-		    {% endif %}
+    <div class="uk-container">
+      <div uk-grid>
+        <article class="uk-article uk-width-3-4@l">
+          <div uk-lightbox>
+            {% if page.svg %}
+            <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
+            {% else %}
+            <a href="{{ page.image }}" data-alt="Image"><img src="{{ page.image }}" alt="{{ page.title | downcase }}"></a>
+            {% endif %}
 
-		    </div>
-	    </article>
+          </div>
+        </article>
 
-	    <div class="uk-width-1-4@l ">
-		    <div class="uk-card">
-			     <h6 class="uk-margin-remove-bottom">Title:</h6> <h5 class="uk-margin-remove-top">{{page.title}}</h5>
-			     {% if page.client %}<h6 class="uk-margin-remove-bottom">Client:</h6><h5 class="uk-margin-remove-top">{{page.client}}</h5>{% endif %}
-			     {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
-			      <h6 class="uk-margin-remove-bottom">Date:</h6> <h5 class="uk-margin-remove-top"><span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
-		    {{content}}
-		    </div>
-		      {% include post-pagination.html %}
-	    </div>
+        <div class="uk-width-1-4@l ">
+          <div class="uk-card">
+            <h6 class="uk-margin-remove-bottom">Title:</h6>
+            <h5 class="uk-margin-remove-top">{{page.title}}</h5>
+            {% if page.client %}<h6 class="uk-margin-remove-bottom">Client:</h6>
+            <h5 class="uk-margin-remove-top">{{page.client}}</h5>{% endif %}
+            {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
+            <h6 class="uk-margin-remove-bottom">Date:</h6>
+            <h5 class="uk-margin-remove-top"><span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
+            {{content}}
+          </div>
+          {% include post-pagination.html %}
+        </div>
 
-		  </div>
-     </div>
+      </div>
+    </div>
   </div>
   {% include totop.html %}
 </div>
