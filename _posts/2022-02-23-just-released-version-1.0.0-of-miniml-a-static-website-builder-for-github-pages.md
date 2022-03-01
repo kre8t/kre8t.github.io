@@ -9,6 +9,4 @@ tags:
 bigimg: "/assets/img/uploads/blocks.png"
 
 ---
-Happy to release v1.0.0 of Miniml.  An open-source framework for building fast websites using Uikit and Jekyll. 
-
-![](/assets/img/uploads/design-studio.jpg)
+Happy to release v1.0.0 of Miniml.  An open-source UI Kit.
