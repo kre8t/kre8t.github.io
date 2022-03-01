@@ -20,6 +20,9 @@ Accomplished Designer offering 20 years of experience developing and designing p
 <img class="uk-width-1-1" src="{{ "/assets/img/resume-preview.jpg" | relative_url }}" width="800" height="200">
 </div></div>
 
+# Skills
+{% include skills.html %}
+
 # Client List
 {% include clientlist.html %}
 
