@@ -12,7 +12,7 @@
   <meta itemprop="description" content="{{ page_description }}">
   <meta itemprop="image" content="{{ page.bigimg }}">
 
-  <meta name="theme-color" content="#2e353f">
+  <meta name="theme-color" content="#ffffff">
   <meta name="description" content="{{ page_description }}">
   <meta name="robots" content="index,follow">
   <meta name="googlebot" content="index,follow">
@@ -26,7 +26,7 @@
   <meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta property="og:type" content="website">
   <meta property="og:title" content="{{ page_title }}">
-  <meta property="og:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/img/alaska-glacier-1.jpg" | prepend: site.url }}{% endif %}">
+  <meta property="og:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% elseif page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/assets/img/logo.png" | prepend: site.url }}{% endif %}">
   <meta property="og:description" content="{{ site.description }}">
   <meta property="og:site_name" content="{{ site.name }}">
   <meta property="og:locale" content="{{ site.locale }}">
@@ -38,7 +38,7 @@
   <meta name="twitter:url" content="{{ site.url }}{{ page.url | replace:'index.html',''}}">
   <meta name="twitter:title" content="{{ page_title }}">
   <meta name="twitter:description" content="{{ page_description }}">
-  <meta name="twitter:image" content="{% if page.bigimg %}{{ page.bigimg | prepend: site.url }}{% else %}{{ "/Screenshot.png" | prepend: site.url }}{% endif %}">
+  <meta name="twitter:image" content="{% if page.image %}{{ page.image | prepend: site.url }}{% else %}{{ "/Screenshot.png" | prepend: site.url }}{% endif %}">
   <meta name="twitter:dnt" content="on">
 
   <!-- Preloading is not currently supported by any browser at the moment, the idea behind it is certainly interesting.
@@ -70,16 +70,4 @@
   <script type="text/javascript" src="{{ "/assets/js/uikit.min.js " | relative_url }}"></script>
   <script type="text/javascript" src="{{ "/assets/js/uikit-icons.min.js " | relative_url }}"></script>
   {% include google_analytics.html %}
-  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({
-          google_ad_client: "{{site.google_ad_client}}",
-          enable_page_level_ads: true
-     });
-</script>
-<style>
-  .button, input[type=submit] {
-    -webkit-appearance: none;
-  }
-</style>
 </head>
