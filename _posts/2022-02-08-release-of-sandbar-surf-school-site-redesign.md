@@ -9,7 +9,7 @@ client: Sandbar Surf School
 image: "/assets/img/uploads/ssss.jpg"
 multiple_images: []
 svg: false
-bigimg: "/assets/img/uploads/sandbarsurf-bg.jpeg"
+bigimg: "/assets/img/uploads/wave-blue.jpg"
 
 ---
 \#My newest site redesign and the first to be released on my current platform, I present to you the Sandbar Surf School.
