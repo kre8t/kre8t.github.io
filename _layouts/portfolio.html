@@ -35,6 +35,9 @@ layout: default
             <h6 class="uk-margin-remove-bottom">Date:</h6>
             <h5 class="uk-margin-remove-top"><span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
             {{content}}
+            <h6 class="uk-margin-remove-bottom"><span uk-icon="tag"></span>Tags:</h6>
+            {% for tag in page.tags %}
+            <a href="{{ site.baseurl }}/archive/index.html#{{ tag | cgi_escape }}" title="Pages tagged {{ tag }}" rel="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}{% endfor %}
           </div>
           {% include post-pagination.html %}
         </div>
