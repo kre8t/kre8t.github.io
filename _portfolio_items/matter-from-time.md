@@ -9,4 +9,4 @@ multiple_images: []
 svg: false
 
 ---
-Matter From Time - Original Artwork by Isaac Horton.
+Matter From Time - Experimental Artwork by Isaac Horton created with the [Deep Dream Generator](https://deepdreamgenerator.com/).
