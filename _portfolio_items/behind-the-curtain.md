@@ -10,4 +10,4 @@ multiple_images: []
 svg: false
 
 ---
-Behind the Curtain - Original Artwork by Isaac Horton. 
+Behind the Curtain - Experimental Artwork by Isaac Horton created with the [Deep Dream Generator](https://deepdreamgenerator.com/).
