@@ -8,4 +8,4 @@ multiple_images: []
 svg: false
 
 ---
-Road of Last Seers - Experimental Artwork by Isaac Horton created with the [Deep Dream Generator](https://deepdreamgenerator.com/).
+Road of Last Seers - Experimental Artwork by Isaac Horton created with the help of AI.
