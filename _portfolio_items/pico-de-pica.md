@@ -9,4 +9,4 @@ multiple_images: []
 svg: false
 
 ---
-Pico De Pica - Experimental Artwork by Isaac Horton created with the [Deep Dream Generator](https://deepdreamgenerator.com/).
+Pico De Pica - Experimental Artwork by Isaac Horton created with the help of AI.
