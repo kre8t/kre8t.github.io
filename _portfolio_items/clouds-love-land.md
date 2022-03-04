@@ -6,7 +6,6 @@ client: Personal
 image: "/assets/img/uploads/4jsquare.png"
 multiple_images: []
 svg: false
-published: false
 
 ---
 Clouds Love Land. Original artwork by Isaac.
