@@ -1,7 +1,7 @@
 ---
 date: 2022-03-09 18:23:48 +0000
 tags: []
-title: Cyberpunk Cat Girl v1
+title: Cyberpunk Cat Girl v1 (in-process)
 client: NFT Project
 image: "/assets/img/uploads/cyberpunk-anime-girl.png"
 multiple_images: []
