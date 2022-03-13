@@ -8,3 +8,4 @@ multiple_images: []
 svg: false
 
 ---
+Original artwork by Isaac Horton
