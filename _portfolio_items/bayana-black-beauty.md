@@ -7,6 +7,7 @@ client: Personal
 image: "/assets/img/uploads/bayana-black-beauty.png"
 multiple_images: []
 svg: false
+published: false
 
 ---
 Prototype concept for the Black Beauty NFT Series
