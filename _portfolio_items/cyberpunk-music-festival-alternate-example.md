@@ -6,6 +6,7 @@ client: NFT Project
 image: "/assets/img/uploads/cyberpunk-anime-sketch-3-hat.png"
 multiple_images: []
 svg: false
+published: false
 
 ---
 Alternate sketch for Cyberpunk Music Festival NFT project.
