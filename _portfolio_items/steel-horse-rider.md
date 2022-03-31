@@ -7,6 +7,7 @@ client: Burning Man
 image: "/assets/img/uploads/steelhorserider.png"
 multiple_images: []
 svg: false
+published: false
 
 ---
 Steel Horse Rider - Original artwork by Isaac Horton
