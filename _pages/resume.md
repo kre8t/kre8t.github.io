@@ -23,7 +23,7 @@ Accomplished Designer offering 20 years of experience developing and designing p
 # Skills
 {% include skills.html %}
 
-# Client List
+# Client List (click tabs below to change view)
 {% include clientlist.html %}
 
 # Work History
