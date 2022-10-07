@@ -1,7 +1,8 @@
 ---
 title: Stepping into the Job Market
 date: 2022-10-06 07:00:00 +0000
-tags: []
+tags:
+- announcements
 bigimg: "/assets/img/uploads/733069938_portfolio_collection_of_illustrated_album_covers_by_a_world_famous_graphic_designer.png"
 
 ---
