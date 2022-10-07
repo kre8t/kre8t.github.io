@@ -1,5 +1,5 @@
 ---
-date: 2022-10-07 02:16:22 +0000
+date: 2002-10-02 02:16:22 +0000
 tags:
 - illustration
 title: Collection of alternate magazine illustrations
