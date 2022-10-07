@@ -3,7 +3,7 @@ title: Stepping into the Job Market
 date: 2022-10-06 07:00:00 +0000
 tags:
 - announcements
-bigimg: "/assets/img/uploads/733069938_portfolio_collection_of_illustrated_album_covers_by_a_world_famous_graphic_designer.png"
+bigimg: "/assets/img/uploads/1307762110_portfolio_collection_of_designs_by_a_world_famous_graphic_designer.png"
 
 ---
 The little projects are not enough to pay the bills lately so Im heading down the rabbit hole of finding a new job. We will just have to see what's in store and where it takes me. As if I wasn't busy enough with my creative goals. Currently, Im looking at remote positions and local design opportunities.
