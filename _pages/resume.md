@@ -7,7 +7,7 @@ permalink: /resume
 
 ## Designer, Engineer, UI/UX, Prototyping, Product Design, Animation
 
-Build it, break it, make it better.
+Effective design realizes form and function in harmony. 
 <hr>
 
 # Professional Summary
