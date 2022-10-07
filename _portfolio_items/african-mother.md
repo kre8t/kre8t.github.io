@@ -1,5 +1,5 @@
 ---
-date: 2022-02-12 12:37:18 -0800
+date: 2022-02-12T12:37:18.000-08:00
 tags:
 - linocut
 - illustration
