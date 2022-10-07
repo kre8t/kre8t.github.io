@@ -9,4 +9,4 @@ multiple_images: []
 svg: false
 
 ---
-Book page layouts produced while working with Liquid Ratio.
+Book page layouts produced while working with Liquid Ratio for the Art Nexus project.
