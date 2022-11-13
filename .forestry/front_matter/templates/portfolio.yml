@@ -41,7 +41,6 @@ fields:
   default: []
   label: Tags
 pages:
-- _portfolio_items/african-mother.md
 - _portfolio_items/afro-black.md
 - _portfolio_items/album-cover-designs.md
 - _portfolio_items/big-wave-cruise-lines.md
