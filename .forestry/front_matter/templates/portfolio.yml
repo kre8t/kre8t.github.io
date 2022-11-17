@@ -41,6 +41,7 @@ fields:
   default: []
   label: Tags
 pages:
+- _portfolio_items/advanced-typography-with-css-course.md
 - _portfolio_items/afro-black.md
 - _portfolio_items/album-cover-designs.md
 - _portfolio_items/black-and-white-pages.md
