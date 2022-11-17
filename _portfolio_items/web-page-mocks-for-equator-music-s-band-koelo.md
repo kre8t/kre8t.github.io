@@ -10,7 +10,6 @@ client: Tim Rollins
 image: "/assets/img/uploads/ih-portfolio-items-08.jpg"
 multiple_images: []
 svg: false
-published: false
 
 ---
 Web mocks for KOELO.
