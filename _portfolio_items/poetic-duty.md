@@ -8,3 +8,4 @@ multiple_images: []
 svg: false
 
 ---
+Magazine style illustration mock ups for a school handout.
