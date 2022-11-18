@@ -1,12 +1,12 @@
 ---
 title: Im so in love with Stable Diffusion
-date: 2022-10-17 07:00:00 +0000
+date: 2022-10-17T07:00:00.000+00:00
 tags:
 - Cloud Renders
 - Animation
 - AI
 - Stable Diffusion
-bigimg: "/assets/img/uploads/772873536_a_black_and_white_flower_of_life_dmt_vision_of_a_mayan_god_and_half_devil_half_woman__a_ps.jpg"
+bigimg: "/assets/img/uploads/ih-portfolio-items-52.jpg"
 
 ---
 It's only been a small time since the first release of Stable Diffusion and I am totally in love with it. This is truly a game changer. Looking forward to producing some awesome music videos and psychedelic graphics with this. There's something awesome about letting the computer do the work for you. I dig how there is still real skill involved in setting up and building the animations. There's really just so much you can do with this. 
