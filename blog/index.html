@@ -10,7 +10,7 @@ subheading: Ingredients for great design
     <div>
       <div class="uk-card uk-card-default">
         <div class="uk-card-media-top">
-          <a href="{{ post.url | relative_url }}" class="uk-button uk-button-default post-read-more"><img src="{{ post.bigimg }}"></a>
+          <a href="{{ post.url | relative_url }}"><img src="{{ post.bigimg }}"></a>
         </div>
         <div class="uk-card-body">
           <h3><a class="uk-link-text" href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
@@ -26,7 +26,7 @@ subheading: Ingredients for great design
           </p>
 
           <div class="content">
-          
+
             <br><a href="{{ post.url | relative_url }}" class="uk-button uk-button-default post-read-more">Read More</a><br>
             {% unless forloop.last %}
 
