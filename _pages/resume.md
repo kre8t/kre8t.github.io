@@ -5,7 +5,7 @@ subheading: Isaac Joseph Horton
 permalink: /resume
 ---
 
-## UI/UX Designer, Developer, Team Leader
+## UI/UX Designer, Product Designer, Illustrator, Animator, Team Leader
 
 Effective design realizes form and function in harmony.
 <hr>
