@@ -31,3 +31,7 @@ h3, h4, h5, h6 {
 .uk-sticky.uk-active {
 	background-color:white;
 }
+.uk-button-primary {
+	background-color:black;
+	border-radius:0;
+}
