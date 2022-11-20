@@ -1,11 +1,11 @@
 ---
 title: The Benefits of Using Miniml
-date: 2022-11-17 08:00:00 +0000
+date: 2022-11-17T08:00:00.000+00:00
 tags:
 - uikit
 - frameworks
 - cms
-bigimg: "/assets/img/uploads/ih-portfolio-items-26.jpg"
+bigimg: "/assets/img/uploads/miniml-preview-pf.jpg"
 
 ---
 I've been doing CMS for over 20 years and I know a thing or two. But what really gets me these days is how bloated the software for the standard platforms are. And now with how popular Wordpress is, it's really sad to see how much effort it takes to run a WP site nowadays. I have to say, the real value of using Miniml is the fact that it is much less likely to get hacked than any other CMS you could find. 
