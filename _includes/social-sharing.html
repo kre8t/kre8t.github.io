@@ -1,23 +1,21 @@
 <h3>Share this content with your friends by using these handy links.</h3>
-<div uk-grid class="uk-child-width-1-2@s uk-child-width-1-4@m">
-  <div>
+<div uk-grid class="uk-child-width-1-4">
+
 		<!-- FACEBOOK --!>
-		<a class="uk-icon-button" uk-icon="facebook" href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
-		'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"></a> Share
-</div>
-<div>
+		<a class="uk-button facebookbutton"  href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}" onclick="window.open(this.href, 'mywin',
+		'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"><span uk-icon="icon: facebook; ratio: 2"></span>Facebook</a>
+
+
 		<!-- Twitter --!>
-		<a class="uk-icon-button" uk-icon="twitter" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter">
-</a> Share
-    </div>
-    <div>
+		<a class="uk-button twitterbutton" href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ site.baseurl }}{{ page.url }}" onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter">
+<span uk-icon="icon: twitter; ratio: 2"></span>Twitter</a>
+
 		<!-- LINKEDIN --!>
-		<a class="uk-icon-button" uk-icon="linkedin" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
-		'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ></a> LinkedIn
-      </div>
-      <div>
+		<a class="uk-icon-button" href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title=&summary=&source=webjeda" onclick="window.open(this.href, 'mywin',
+		'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" ><span uk-icon="icon: linkedin; ratio: 2"></span>LinkedIn</a>
+
 		<!-- EMAIL --!>
-		<a class="uk-icon-button" uk-icon="mail" href="mailto:?subject=&amp;body=Check out this article {{ site.url }}{{ page.url }}">
-		</a> Email
-  </div>
+		<a class="uk-icon-button" href="mailto:?subject=&amp;body=Check out this article {{ site.url }}{{ page.url }}">
+		<span uk-icon="icon: mail; ratio: 2"></span>Email</a> Email
+
 	</div>
