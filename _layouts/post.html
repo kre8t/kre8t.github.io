@@ -36,10 +36,12 @@ layout: default
             {% include reading-time.html %}
           </p>
           {% if page.bigimg %}
-          <img src="{{page.bigimg}}">
+          <div class="uk-margin">
+            <img src="{{page.bigimg}}">
+          </div>
           {% endif %}
           <div class="ih-blog-main-content">
-          {{content}}
+            {{content}}
           </div>
         </article>
       </div>
