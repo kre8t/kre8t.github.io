@@ -8,9 +8,7 @@ tags:
 bigimg: "/assets/img/uploads/miniml-preview-pf.jpg"
 
 ---
-### I've been doing CMS for over 20 years and I know a thing or two. But what really gets me these days is how bloated the software for the standard platforms are. 
-
-And now with how popular Wordpress is, it's really sad to see how much effort it takes to run a WP site nowadays. I have to say, 
+I've been doing CMS for over 20 years and I know a thing or two. But what really gets me these days is how bloated the software for the standard platforms are. And now with how popular Wordpress is, it's really sad to see how much effort it takes to run a WP site nowadays. I have to say, 
 
 > The real value of using Miniml is the fact that it is much less likely to get hacked than any other CMS you could find.
 
