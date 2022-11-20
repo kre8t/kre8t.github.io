@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Curriculum Vitae
+title: Resume/Curriculum Vitae
 subheading: Isaac Joseph Horton
 permalink: /resume
 ---
