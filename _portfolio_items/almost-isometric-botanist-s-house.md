@@ -10,4 +10,4 @@ multiple_images: []
 svg: false
 
 ---
-The Botanists House has a certain quality to it
+The Botanists House has a nice green glow to it.
