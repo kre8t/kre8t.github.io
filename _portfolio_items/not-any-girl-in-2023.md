@@ -9,4 +9,4 @@ multiple_images: []
 svg: false
 
 ---
-Girl in green
+Vintage Girl in green
