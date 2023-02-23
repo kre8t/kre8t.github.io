@@ -41,6 +41,7 @@ fields:
   default: []
   label: Tags
 pages:
+- _portfolio_items/70s-at-the-beach.md
 - _portfolio_items/almost-isometric-botanist-s-house.md
 - _portfolio_items/amanda-gold.md
 - _portfolio_items/analytical-thinking-poster.md
