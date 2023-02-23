@@ -4,7 +4,7 @@ tags:
 - illustration
 title: Analytical Thinking Poster
 client: Personal
-image: "/assets/img/uploads/ih-portfolio-posters-56.jpg"
+image: "/assets/img/uploads/ih-portfolio-posters-80.jpg"
 multiple_images: []
 svg: false
 
