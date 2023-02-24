@@ -4,7 +4,7 @@ date: 2023-02-16T20:00:00.000+00:00
 tags:
 - Miniml
 - GitHub Pages
-bigimg: "/assets/img/uploads/screen-shot-2023-02-23-at-2-04-12-pm.png"
+bigimg: "/assets/img/uploads/ih-portfolio-items-81.jpg"
 
 ---
 In today's digital age, having an online presence is essential for professionals, including designers and photographers. Whether you're looking to showcase your work or build a brand, a website is an excellent way to reach your target audience. However, building a website from scratch can be a daunting task, especially if you don't have any coding experience.
