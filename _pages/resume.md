@@ -23,10 +23,9 @@ Accomplished Designer offering 20 years of experience developing and designing p
 ## 2. Skills
 {% include skills.html %}
 
-<div uk-sticky="end: true; offset: 80">
-## 3. Work History
+
 {% include workhistory.html %}
-</div>
+
 
 ## 4. Client List
 {% include clientlist.html %}
