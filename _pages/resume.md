@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Resume
-subheading: Isaac Joseph Horton
+subheading: Isaac Horton
 permalink: /resume
 ---
 
