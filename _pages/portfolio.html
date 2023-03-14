@@ -5,7 +5,31 @@ subheading: The works of IJH
 permalink: /portfolio
 ---
 <div class="uk-container uk-margin">
-  <p>Some of my more recent work.</p>
+  <article class="uk-article">
+        {% for website in site.websites reversed %}
+        <h4>{{ website.title }} </h4>
+        <a href="{{site.baseurl}}/websites/{{website.slug}}/" class="uk-text-muted">view project</a>
+    <div uk-grid>
+      <div class="uk-width-1-3@m">
+        <div uk-lightbox>
+          <a href="{{ website.smallimage1 }}" data-alt="Image"><img src="{{ website.smallimage1 }}" alt="{{ website.title | downcase }} 1"></a>
+        </div>
+      </div>
+
+      <div class="uk-width-1-3@m">
+        <div uk-lightbox>
+          <a href="{{ website.smallimage2 }}" data-alt="Image"><img src="{{ website.smallimage2 }}" alt="{{ website.title | downcase }} 2"></a>
+        </div>
+      </div>
+      <div class="uk-width-1-3@m">
+        <div uk-lightbox>
+          <a href="{{ website.smallimage3 }}" data-alt="Image"><img src="{{ website.smallimage3 }}" alt="{{ website.title | downcase }} 3"></a>
+        </div>
+      </div>
+    </div>
+        {% endfor %}
+  </article>
+  <h4>Art & Design</h4>
 </div>
 <div class="uk-container uk-margin">
   <div class="uk-child-width-1-2@s uk-child-width-1-3@m uk-child-width-1-4@l" uk-grid uk-height-match="target: > div > .uk-card > .uk-card-media-top">

@@ -61,6 +61,10 @@ collections:
     output: true
     permalink: /portfolio/:path/
 
+  websites:
+    output: true
+    permalink: /websites/:path/
+
 # 7. Site settings
 name: Isaac Joseph Horton
 title: IJH
@@ -122,6 +126,12 @@ defaults:
       type: "portfolio_items"
     values:
       layout: "portfolio"
+
+  - scope:
+      path: ""
+      type: "websites"
+    values:
+      layout: "website"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

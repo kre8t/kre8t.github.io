@@ -1,0 +1,50 @@
+---
+layout: default
+---
+
+<hr class="uk-margin-remove-top">
+
+<div>
+  <div class="uk-section-xsmall">
+    <div class="uk-container">
+      <div uk-grid>
+        <article class="uk-article uk-width-3-4@l">
+          <div uk-grid>
+            <div class="uk-width-1-3@m">
+              <div uk-lightbox>
+                <a href="{{ page.smallimage1 }}" data-alt="Image"><img src="{{ page.smallimage1 }}" alt="{{ page.title | downcase }} 1"></a>
+              </div>
+            </div>
+
+            <div class="uk-width-1-3@m">
+              <div uk-lightbox>
+                <a href="{{ page.smallimage2 }}" data-alt="Image"><img src="{{ page.smallimage2 }}" alt="{{ page.title | downcase }} 2"></a>
+              </div>
+            </div>
+            <div class="uk-width-1-3@m">
+              <div uk-lightbox>
+                <a href="{{ page.smallimage3 }}" data-alt="Image"><img src="{{ page.smallimage3 }}" alt="{{ page.title | downcase }} 3"></a>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <div class="uk-width-1-4@l ">
+          <div class="uk-card">
+            <h6 class="uk-margin-remove-bottom">Title:</h6>
+            <h5 class="uk-margin-remove-top">{{page.title}}</h5>
+            {% if page.client %}<h6 class="uk-margin-remove-bottom">Client:</h6>
+            <h5 class="uk-margin-remove-top">{{page.client}}</h5>{% endif %}
+            {% if page.subheading %}<h5 class="uk-margin-small-bottom">{{page.subheading}}</h5>{% endif %}
+            <h6 class="uk-margin-remove-bottom">Date:</h6>
+            <h5 class="uk-margin-remove-top"><span class="date">{{page.date | date: "%b %d, %Y "}}</span></h5>
+            {{content}}
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+  {% include totop.html %}
+</div>
