@@ -5,12 +5,12 @@ subheading: Isaac Joseph Horton
 permalink: /resume
 ---
 
-## 1. UI/UX Designer, Product Designer, Illustrator, Animator, Team Leader
+## UI/UX Designer, Product Designer, Illustrator, Animator, Team Leader
 
 Effective design realizes form and function in harmony.
 <hr>
 
-## 2. Professional Summary
+## 1. Professional Summary
 
 <div uk-grid><div class="uk-width-1-2@m">
 
@@ -20,16 +20,16 @@ Accomplished Designer offering 20 years of experience developing and designing p
 
 </div></div>
 
-## 3. Skills
+## 2. Skills
 {% include skills.html %}
 
-## 4. Work History
+## 3. Work History
 {% include workhistory.html %}
 
-## 5. Client List
+## 4. Client List
 {% include clientlist.html %}
 
-## 6. Certifications
+## 5. Certifications
   • Google Cloud Architect
   • Google Ads
   • jQuery
