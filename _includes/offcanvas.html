@@ -1,8 +1,9 @@
 <div id="offcanvasmenu" class="uk-modal-full" uk-modal>
 	<div class="uk-modal-dialog uk-modal-body">
 			<button class="uk-modal-close-default" type="button" uk-close></button>
+			<a href="{{"/" | relative_url}}" class="uk-logo uk-margin-remove-left"><img src="{{"/assets/img/h-logo.svg" | relative_url}}" alt="IJH" class="uk-margin-small-right" width="30" height="30" uk-svg></a>
 
-		<ul class="uk-nav uk-nav-default uk-light">
+		<ul class="uk-nav uk-nav-default uk-light uk-margin-top">
 	        {% for link in site.data.navigation.mobile %}
 	            {% if link.url contains "https" %}
 	                {% assign url = link.url %}
