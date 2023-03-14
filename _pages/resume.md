@@ -28,3 +28,8 @@ Accomplished Designer offering 20 years of experience developing and designing p
 
 ## 5. Client List
 {% include clientlist.html %}
+
+## 6. Certifications
+  • Google Cloud Architect
+  • Google Ads
+  • jQuery
