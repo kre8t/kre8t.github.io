@@ -10,7 +10,7 @@ permalink: /resume
 Effective design realizes form and function in harmony.
 <hr>
 
-## 1. Professional Summary
+## Professional Summary
 
 <div uk-grid><div class="uk-width-1-2@m">
 
@@ -20,17 +20,18 @@ Accomplished Designer offering 20 years of experience developing and designing p
 
 </div></div>
 
-## 2. Skills
+## 1. Skills
 {% include skills.html %}
 
 
 {% include workhistory.html %}
 
 
-## 4. Client List
-{% include clientlist.html %}
-
-## 5. Certifications
+## 3. Certifications
   • Google Cloud Architect
   • Google Ads
   • jQuery
+
+
+## 4. Client List
+  {% include clientlist.html %}
