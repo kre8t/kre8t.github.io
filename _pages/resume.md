@@ -28,9 +28,11 @@ Accomplished Designer offering 20 years of experience developing and designing p
 
 
 ## 3. Certifications
-  • Google Cloud Architect
-  • Google Ads
-  • jQuery
+  - Google Cloud Architect
+  - Analytics
+  - jQuery
+  - HTML/CSS
+  - Figma
 
 
 ## 4. Client List
