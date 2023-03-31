@@ -4,7 +4,7 @@ date: 2023-02-23T21:00:00.000+00:00
 tags:
 - Google
 - certification
-bigimg: ''
+bigimg: "/assets/img/uploads/google-cloud-certified-professional-cloud-architect.jpg"
 
 ---
 As a designer & developer, versatility is one of my greatest strengths. I have a unique ability to seamlessly blend my design and development skills to create exceptional digital experiences that not only look great but also function flawlessly.
