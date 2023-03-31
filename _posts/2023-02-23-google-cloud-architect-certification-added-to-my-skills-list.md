@@ -1,10 +1,10 @@
 ---
 title: Google Cloud Architect Certification Added to my Skills List
-date: 2023-02-23 21:00:00 +0000
+date: 2023-02-23T21:00:00.000+00:00
 tags:
 - Google
 - certification
-bigimg: "/assets/img/uploads/screen-shot-2023-02-23-at-10-52-41-am.png"
+bigimg: ''
 
 ---
 As a designer & developer, versatility is one of my greatest strengths. I have a unique ability to seamlessly blend my design and development skills to create exceptional digital experiences that not only look great but also function flawlessly.
