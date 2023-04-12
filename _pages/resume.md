@@ -1,8 +1,8 @@
 ---
-layout: page
 title: Resume
+permalink: "/resume"
+layout: page
 subheading: Isaac Horton
-permalink: /resume
 ---
 
 ## UI/UX Designer, Product Designer, Illustrator, Animator, Team Leader

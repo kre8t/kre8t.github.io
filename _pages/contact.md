@@ -1,8 +1,8 @@
 ---
-layout: over
 title: Contact
+permalink: "/contact"
+layout: over
 subheading: Tell me something good
-permalink: /contact
 ---
 
 <div uk-grid>

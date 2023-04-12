@@ -1,30 +1,43 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-# Site configuration
-# 1. Files excluded from Jekyll builds
-# 2. Installed Gems
-# 3. Gem settings
-# 4. Jekyll settings
-# 5. Collections
-# 6. Jekyll collections settings
-# 7. Site settings
-# 8. Site navigation
-
-# 1. Files excluded from Jekyll builds
+---
+title: IJH
+timezone: America/Los_Angeles
+collections:
+  portfolio_items:
+    title: Portfolio Items
+    output: true
+    permalink: "/portfolio/:path/"
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+  websites:
+    title: Websites
+    output: true
+    permalink: "/websites/:path/"
+defaults:
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+    comments: true
+- scope:
+    path: ''
+  values:
+    layout: page
+    show-avatar: true
+- scope:
+    path: ''
+    type: portfolio_items
+  values:
+    layout: portfolio
+- scope:
+    path: ''
+    type: websites
+  values:
+    layout: website
 exclude:
 - README.md
 - CODE_OF_CONDUCT.md
@@ -35,112 +48,39 @@ exclude:
 - Gemfile.lock
 - github-uikit.gemspec
 - vendor/
-
-# 2. Installed Gems
 plugins:
-  - github-pages
-  - jekyll-feed
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-algolia
-
-# 3. Gem settings
+- github-pages
+- jekyll-feed
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-algolia
 paginate_path: "/blog/page:num/"
 paginate: 20
-
-
-# 4. Jekyll settings
-permalink: /blog/:year/:month/:day/:title/
+permalink: "/:title/"
 excerpt_separator: "<!--more-->"
-timezone: America/Los_Angeles # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-
-
-# 5. Collections
-collections:
-  portfolio_items:
-    output: true
-    permalink: /portfolio/:path/
-
-  websites:
-    output: true
-    permalink: /websites/:path/
-
-# 7. Site settings
 name: Isaac Joseph Horton
-title: IJH
 author: Isaac Joseph Horton
 email: isaacjosephhorton@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Design and software solutions for business. Ecommerce expert. Usability investigator.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://kre8t.github.io" # the base hostname & protocol for your site, e.g. https://example.com
-avatar: /assets/logo.png #path/to/avatar.png
+description: Design and software solutions for business. Ecommerce expert. Usability
+  investigator.
+baseurl: ''
+url: https://kre8t.github.io
+avatar: "/assets/logo.png"
 lang: en
 locale: en_US
-
 to_top: true
-
-disqus: ""
-twitter: "kre8t_"
-instagram: "kre8t_"
-github: "kre8t"
-buymeacoffee: "isaachorton"
-fb_app_id: "" # This is needed for FB Cards to work.
-google_analytics: "G-KZ1JS263PW"
-google_ad_client: "pub-7840179511709652"
-
-include: ["_pages"]
-permalink: /:title/
-
-#footer-links
-
-Twitter: "kre8t_"
-Instagram: "kre8t_"
-GitHub: "kre8t"
+disqus: ''
+twitter: kre8t_
+instagram: kre8t_
+github: kre8t
+buymeacoffee: isaachorton
+fb_app_id: ''
+google_analytics: G-KZ1JS263PW
+google_ad_client: pub-7840179511709652
+include:
+- _pages
+Twitter: kre8t_
+Instagram: kre8t_
+GitHub: kre8t
 RSS: true
-
-
-# 8. Site navigation
-# Not using this yet
-
-# Build settings
-
 markdown: kramdown
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-      show-avatar: true
-
-  - scope:
-      path: ""
-      type: "portfolio_items"
-    values:
-      layout: "portfolio"
-
-  - scope:
-      path: ""
-      type: "websites"
-    values:
-      layout: "website"
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

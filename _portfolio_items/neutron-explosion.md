@@ -1,12 +1,12 @@
 ---
-date: 2023-02-23 17:51:31 +0000
+title: Neutron Explosion
+date: 2023-02-23 09:51:31 -08:00
 tags:
 - illustration
-title: Neutron Explosion
 client: Experimental Exploration
 image: "/assets/img/uploads/isaac-horton-portfolio-38.jpeg"
 multiple_images: []
 svg: false
-
 ---
+
 Neutron bomb illustration

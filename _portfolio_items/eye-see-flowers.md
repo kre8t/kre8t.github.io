@@ -1,12 +1,12 @@
 ---
-date: 2023-02-23 17:39:37 +0000
+title: Eye See Flowers
+date: 2023-02-23 09:39:37 -08:00
 tags:
 - photography
-title: Eye See Flowers
 client: Getty Images
 image: "/assets/img/uploads/isaac-horton-portfolio-49.jpg"
 multiple_images: []
 svg: false
-
 ---
+
 Close-up in the faux photography series.

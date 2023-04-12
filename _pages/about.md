@@ -1,9 +1,8 @@
 ---
-layout: page
 title: About Jekyll-UiKit
-bigimg: /assets/img/uikit.jpg
+layout: page
+bigimg: "/assets/img/uikit.jpg"
 ---
-
 
 Built in [UiKit](https://getuikit.com/){:target="_ blank"}, with an elegant homepage, blog and archive pages, and lighting fast search with Algolia. Build a simple and beautiful website or blog in a few hours or less.
 

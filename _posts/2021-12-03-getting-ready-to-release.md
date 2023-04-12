@@ -1,16 +1,16 @@
 ---
-layout: post
 title: Github-UiKit Migrated to Miniml
-date: 2021-12-03T10:32:13.000-07:00
+date: 2021-12-03 09:32:13 -08:00
 tags:
 - github-uikit
 - github
 - cms
 - blog
 - jekyll
+layout: post
 bigimg: "/assets/img/uploads/blocks.png"
-
 ---
+
 Github-UiKit is available as a [Jekyll theme gem](https://jekyllrb.com/docs/themes/). It has been built with Github Pages in mind. Installing should be fairly simple.
 
 <!--more-->

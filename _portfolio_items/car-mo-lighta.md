@@ -1,12 +1,12 @@
 ---
-date: 2023-02-23 09:19:42 +0000
+title: Car-Mo-Lighta
+date: 2023-02-23 01:19:42 -08:00
 tags:
 - photography
-title: Car-Mo-Lighta
 client: Getty Images
 image: "/assets/img/uploads/isaac-horton-portfolio-36.jpeg"
 multiple_images: []
 svg: false
-
 ---
+
 Car lights at night

@@ -1,12 +1,12 @@
 ---
 title: Google Cloud Architect Certification Added to my Skills List
-date: 2023-02-23T21:00:00.000+00:00
+date: 2023-02-23 13:00:00 -08:00
 tags:
 - Google
 - certification
 bigimg: "/assets/img/uploads/google-cloud-certified-professional-cloud-architect.jpg"
-
 ---
+
 As a designer & developer, versatility is one of my greatest strengths. I have a unique ability to seamlessly blend my design and development skills to create exceptional digital experiences that not only look great but also function flawlessly.
 
 Over the years, I have honed my skills in various design and development areas, including UX/UI design, front-end development, back-end development, and cloud computing. I am equally comfortable working with Photoshop, Sketch, Figma, HTML/CSS, JavaScript, PHP, Python, and more.

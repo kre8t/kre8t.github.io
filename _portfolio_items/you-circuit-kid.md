@@ -1,12 +1,12 @@
 ---
-date: 2023-02-23 17:11:41 +0000
+title: You Circuit Kid
+date: 2023-02-23 09:11:41 -08:00
 tags:
 - illustration
-title: You Circuit Kid
 client: Getty Images
 image: "/assets/img/uploads/isaac-horton-portfolio-28.jpg"
 multiple_images: []
 svg: false
-
 ---
+
 You Circuit kids live underground in the city.
