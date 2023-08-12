@@ -33,7 +33,3 @@ Accomplished Designer offering 20 years of experience developing and designing p
   - jQuery
   - HTML/CSS
   - Figma
-
-
-## 5. Client List
-  {% include clientlist.html %}
