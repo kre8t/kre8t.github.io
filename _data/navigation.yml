@@ -3,18 +3,14 @@
 main:
   - title: "Portfolio"
     url: /portfolio
-  - title: "Blog"
-    url: /blog
   - title: "Resume"
     url: /resume
   - title: "Contact"
     url: /contact
-    
+
 mobile:
   - title: "Portfolio"
     url: /portfolio
-  - title: "Blog"
-    url: /blog
   - title: "Resume"
     url: /resume
   - title: "Contact"
