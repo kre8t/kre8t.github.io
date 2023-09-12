@@ -18,7 +18,7 @@ layout: homepage
           <div class="uk-child-width-1-3@m uk-grid-match" uk-grid>
             <div class="uk-heading-small uk-animation-slide-right-small uk-flex uk-flex-middle">Visual, <br>Data,<br>Solutions</div>
             <div><img class="uk-width-1-1" src="{{ "/assets/img/Portfolio-70.jpg" | relative_url }}"></div>
-            <div class="uk-visible@m"><div class="uk-card uk-card-secondary uk-card-body uk-flex uk-flex-bottom"><p class="uk-text-meta">Make it better</p></div></div>
+            <div class="uk-visible@m"><div class="uk-card uk-card-secondary uk-card-body uk-flex uk-flex-bottom"><p class="uk-text-meta"><span id="betterbox"></span></p></div></div>
           </div>
         </div>
           {% include sections/featured.html %}
@@ -34,6 +34,10 @@ layout: homepage
   <script>
     var typed = new Typed('#element', {
       strings: ['Product Designer', 'UI/UX Designer', '3D Designer', 'Animator', 'Videographer', 'Your New Secret Weapon'],
+      typeSpeed: 50,
+    });
+    var typed = new Typed('#betterbox', {
+      strings: ['Make it better', 'Create success', 'Complete the circle', 'Teamwork makes the dream work', 'Style goes for miles', 'Dream your desires', 'Bringing the hot sauce', 'Passion for design', 'Design solution'],
       typeSpeed: 50,
     });
   </script>
