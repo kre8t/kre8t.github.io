@@ -1,6 +1,6 @@
 ---
 title: The Great Pacific Garbage Patch
-date: 2023-08-25 09:44:30 -08:00
+date: 2023-08-25 09:54:30 -08:00
 tags:
 - illustration
 client: The Artistic
