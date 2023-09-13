@@ -1,6 +1,6 @@
 ---
 title: The Fall of Building 7
-date: 2023-08-25 09:48:30 -08:00
+date: 2023-08-28 08:48:30 -08:00
 tags:
 - illustration
 client: The Artistic

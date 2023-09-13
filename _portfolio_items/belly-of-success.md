@@ -1,6 +1,6 @@
 ---
 title: Standing on The Belly of Success
-date: 2023-08-24 10:44:30 -08:00
+date: 2023-08-26 11:44:30 -08:00
 tags:
 - illustration
 client: The Artistic
