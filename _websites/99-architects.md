@@ -10,4 +10,4 @@ smallimage2: "/assets/img/uploads/websites/99a-4-s.jpeg"
 smallimage3: "/assets/img/uploads/websites/99a-5-s.jpeg"
 ---
 
-Web design for Architecture firm in San Luis Obispo.
+Web design for architecture group in San Francisco.
