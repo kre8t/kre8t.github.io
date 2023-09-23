@@ -6,7 +6,7 @@ tags:
 - dark
 - e-commerce
 client: Shopatron
-image: "/assets/img/uploads/desktopdash.jpg"
+image: "/assets/img/uploads/desktopdash.jpeg"
 multiple_images: []
 svg: false
 ---
