@@ -28,6 +28,9 @@ h3, h4, h5, h6 {
 .uk-button {
 	border-radius:8px;
 }
+a.uk-button:hover {
+	background-color:#39AAD1;
+}
 .uk-sticky.uk-active {
 	background-color:white;
 }
