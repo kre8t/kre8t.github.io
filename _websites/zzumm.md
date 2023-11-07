@@ -12,4 +12,4 @@ smallimage2: "/assets/img/uploads/websites/zzumm-w2.jpg"
 smallimage3: "/assets/img/uploads/websites/zzumm-404.jpg"
 ---
 
-Design for ZZUMM AI website.
+Design for ZZUMM AI website. https://zzumm.us
