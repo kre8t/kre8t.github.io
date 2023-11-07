@@ -5,7 +5,7 @@ tags:
 - illustration
 - logo
 client: Strange Cake Music
-image: "/assets/img/uploads/sc-logo-retrocard.jpg"
+image: "/assets/img/uploads/logo-retro-scwhite.png"
 multiple_images: []
 svg: false
 ---
