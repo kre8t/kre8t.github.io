@@ -10,4 +10,4 @@ multiple_images: []
 svg: false
 ---
 
-Logo for zzumm AI.
+Logo for Zzumm AI.
