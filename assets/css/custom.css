@@ -39,7 +39,7 @@ a.uk-button:hover {
 }
 .uk-card h2 a:hover {
 	text-decoration:none;
-
+	color:#888;
 }
 @media (min-width: 960px) {
 .ih-post-title {
