@@ -34,6 +34,13 @@ a.uk-button:hover {
 .uk-sticky.uk-active {
 	background-color:white;
 }
+.mimimlblock h2 a {
+	color:black;
+}
+.uk-card h2 a:hover {
+	text-decoration:none;
+
+}
 @media (min-width: 960px) {
 .ih-post-title {
 	padding:40px 40px 20px 40px;
