@@ -8,7 +8,7 @@ layout: homepage
       {% include header.html %}
       <div class="uk-section uk-section-small">
         <div class="intro-text uk-container">
-          <h3 class="uk-heading-medium">Isaac Horton <br><!-- Element to contain animated typing -->
+          <h3 class="uk-heading-medium" uk-parallax="x: 0,50 10%,150 50%">Isaac Horton <br><!-- Element to contain animated typing -->
             <span id="element"></span>
           </h3>
         </div>
@@ -16,9 +16,9 @@ layout: homepage
       <div class="uk-section uk-section-small">
         <div class="intro-text uk-container">
           <div class="uk-child-width-1-3@m uk-grid-match" uk-grid>
-            <div class="uk-heading-small uk-animation-slide-right-small uk-flex uk-flex-middle">Visual, <br>Data,<br>Solutions</div>
-            <div><img class="uk-width-1-1" src="{{ "/assets/img/Portfolio-70.jpg" | relative_url }}"></div>
-            <div class="uk-visible@m"><div class="uk-card uk-card-secondary uk-card-body uk-flex uk-flex-bottom"><p class="uk-text-meta"><span id="betterbox"></span></p></div></div>
+            <div class="uk-heading-small uk-animation-slide-right-small uk-flex uk-flex-middle" uk-scrollspy="cls: uk-animation-slide-right; repeat: true">Visual, <br>Data,<br>Solutions</div>
+            <div uk-scrollspy="cls: uk-animation-slide-right; repeat: true"><img class="uk-width-1-1" src="{{ "/assets/img/Portfolio-70.jpg" | relative_url }}"></div>
+            <div class="uk-visible@m" uk-scrollspy="cls: uk-animation-slide-top; repeat: true"><div class="uk-card uk-card-secondary uk-card-body uk-flex uk-flex-bottom"><p class="uk-text-meta"><span id="betterbox"></span></p></div></div>
           </div>
         </div>
           {% include sections/featured.html %}
