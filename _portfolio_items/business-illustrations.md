@@ -9,4 +9,4 @@ multiple_images: []
 svg: false
 ---
 
-Compilation of all the illustrations produced for the Artistic zine.
+Compilation of all the illustrations produced for the Artistic.
