@@ -29,4 +29,6 @@ Accomplished business development manager, strategist and designer/developer off
 
 ## 4. Certifications
   - Google Cloud Architect
-  - Analytics
+  - UX/UI Design
+  - Machine Learning
+  - 316 Welding (Stainless)
