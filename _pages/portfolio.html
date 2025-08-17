@@ -6,7 +6,7 @@ subheading: The works of Isaac Horton
 ---
 <div class="uk-container uk-margin">
   <h2>Videos</h2>
-  <div class="portfolio-grid">
+  <div class="portfolio-grid" uk-grid>
     {% for video in site.videos %}
       {% include video-card.html video=video %}
     {% endfor %}
