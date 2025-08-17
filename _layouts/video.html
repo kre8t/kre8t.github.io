@@ -1,25 +1,26 @@
 ---
 layout: default
 ---
+<div class="uk-container ">
+  <div class="portfolio-detail video-detail">
+    <h1>{{ page.title }}</h1>
 
-<div class="portfolio-detail video-detail">
-  <h1>{{ page.title }}</h1>
+    <div class="video-embed">
+      <iframe width="100%" height="480"
+        src="https://www.youtube.com/embed/{{ page.youtube_id }}"
+        title="{{ page.title }}" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
+      </iframe>
+    </div>
 
-  <div class="video-embed">
-    <iframe width="100%" height="480"
-      src="https://www.youtube.com/embed/{{ page.youtube_id }}"
-      title="{{ page.title }}" frameborder="0"
-      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-      allowfullscreen>
-    </iframe>
-  </div>
+    <div class="portfolio-meta">
+      {% if page.category %}<p><strong>Category:</strong> {{ page.category }}</p>{% endif %}
+      {% if page.date %}<p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>{% endif %}
+    </div>
 
-  <div class="portfolio-meta">
-    {% if page.category %}<p><strong>Category:</strong> {{ page.category }}</p>{% endif %}
-    {% if page.date %}<p><strong>Date:</strong> {{ page.date | date: "%B %d, %Y" }}</p>{% endif %}
-  </div>
-
-  <div class="portfolio-description">
-    {{ page.description }}
+    <div class="portfolio-description">
+      {{ page.description }}
+    </div>
   </div>
 </div>
