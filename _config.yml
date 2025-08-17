@@ -16,6 +16,10 @@ collections:
     title: Websites
     output: true
     permalink: "/websites/:path/"
+  videos:
+    title: Animation & Video
+    output: true
+    permalink: /portfolio/videos/:title/
 defaults:
 - scope:
     path: ''

@@ -4,6 +4,14 @@ permalink: "/portfolio"
 layout: portfoliomain
 subheading: The works of Isaac Horton
 ---
+<h2>Videos</h2>
+<div class="portfolio-grid">
+  {% for video in site.videos %}
+    {% include video-card.html video=video %}
+  {% endfor %}
+</div>
+
+
 <div class="uk-container uk-margin">
 <div><img class="uk-width-1-1" src="{{ "/assets/img/ih-portfolio-items-4up.jpg" | relative_url }}"></div>
 <div><img class="uk-width-1-1" src="{{ "/assets/img/ih-portfolio-items-54.jpg" | relative_url }}"></div>
