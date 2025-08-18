@@ -1,0 +1,73 @@
+<svg width="1920" height="4000" viewBox="0 0 1920 4000" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1920" height="4000" fill="#305c72"/>
+
+  <!-- Starfield -->
+  <g id="stars">
+    <!-- Generate 150 stars with different twinkle speeds -->
+    <defs>
+      <circle id="star" r="1.5" fill="white" opacity="0.8"/>
+    </defs>
+
+    <!-- Fast twinkle group -->
+    <g>
+      <use href="#star" x="200" y="300">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.5s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="600" y="900">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="1200" y="400">
+        <animate attributeName="opacity" values="0.1;0.9;0.1" dur="1.2s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="1700" y="700">
+        <animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <!-- Medium twinkle group -->
+    <g>
+      <use href="#star" x="300" y="1300">
+        <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="800" y="2000">
+        <animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.5s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="1500" y="600">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="2.8s" repeatCount="indefinite"/>
+      </use>
+    </g>
+
+    <!-- Slow twinkle group -->
+    <g>
+      <use href="#star" x="500" y="3000">
+        <animate attributeName="opacity" values="0.2;0.9;0.2" dur="6s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="1000" y="2800">
+        <animate attributeName="opacity" values="0.3;1;0.3" dur="5.5s" repeatCount="indefinite"/>
+      </use>
+      <use href="#star" x="1600" y="2200">
+        <animate attributeName="opacity" values="0.1;0.7;0.1" dur="7s" repeatCount="indefinite"/>
+      </use>
+    </g>
+  </g>
+
+  <!-- UFO -->
+  <g id="ufo" transform="translate(2000,549) scale(0.5)">
+    <!-- Body -->
+    <ellipse cx="0" cy="0" rx="100" ry="40" fill="silver" stroke="#222" stroke-width="2"/>
+    <!-- Dome -->
+    <ellipse cx="0" cy="-20" rx="40" ry="20" fill="#88a" stroke="#222" stroke-width="2"/>
+    <!-- Lights -->
+    <circle cx="-60" cy="20" r="6" fill="yellow"/>
+    <circle cx="0" cy="25" r="6" fill="red"/>
+    <circle cx="60" cy="20" r="6" fill="green"/>
+
+    <!-- UFO animation -->
+    <animateTransform attributeName="transform"
+      type="translate"
+      from="2000 549"
+      to="-200 549"
+      dur="60s"
+      repeatCount="indefinite"/>
+  </g>
+</svg>
