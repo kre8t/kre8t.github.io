@@ -59,6 +59,11 @@ a.uk-button:hover {
 	text-decoration:none;
 	color:#888;
 }
+
+.portfolio-item.video a {
+    border: 10px solid #000;
+    display: inline-block;
+}
 @media (min-width: 960px) {
 .ih-post-title {
 	padding:40px 40px 20px 40px;
