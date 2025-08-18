@@ -1,6 +1,8 @@
 <div class="portfolio-item video uk-width-1-2@m">
   <a href="{{ video.url | relative_url }}">
-    <img src="{{ video.thumbnail }}" alt="{{ video.title }}" class="portfolio-thumb" width="1920" height="1080" />
-    <span uk-icon="icon: youtube; ratio: 2"></span>
+    <div class="uk-inline uk-dark">
+      <img src="{{ video.thumbnail }}" alt="{{ video.title }}" class="portfolio-thumb" width="1920" height="1080" />
+      <span uk-overlay-icon="icon: play-circle; ratio: 2"></span>
+    </div>
   </a>
 </div>
