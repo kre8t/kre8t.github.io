@@ -5,6 +5,9 @@
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
 }
+.homepageisaac .uk-heading-medium {
+	color:#8197a4;
+}
 .homepageisaac .uk-card-secondary {
 	background-color:#161513;
 }
