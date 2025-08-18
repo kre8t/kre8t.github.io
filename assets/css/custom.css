@@ -5,6 +5,9 @@
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
 }
+.homepage .uk-card-secondary {
+	background-color:#000;
+}
 .uk-navbar-nav>li>a {
 	color:#000;
 }
