@@ -67,6 +67,9 @@ a.uk-button:hover {
 .uk-overlay-default {
     background: rgba(0, 0, 0, .2);
 }
+.uk-card-primary {
+    background-color: #305c72;
+	}
 @media (min-width: 960px) {
 .ih-post-title {
 	padding:40px 40px 20px 40px;
