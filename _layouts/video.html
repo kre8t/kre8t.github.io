@@ -60,48 +60,41 @@ layout: no-header
 
   <div class="uk-width-2-3@m">
 
+    <hr class="uk-margin-large">
 
-    <div class="uk-section uk-section-small">
-      <h3 class="uk-heading-line"><span>More Videos</span></h3>
+    <h3 class="uk-heading-line uk-text-bold"><span>More Videos</span></h3>
 
-      <!-- Slider for related videos -->
-      <div uk-slider="finite: true">
-        <div class="uk-position-relative">
-          <div class="uk-slider-container">
-            <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m uk-grid-small uk-grid-match" uk-grid>
-              {% assign related = site.videos | where_exp: "item","item.url != page.url" | sort: "date" | reverse %}
-              {% for video in related limit:8 %}
-              <li>
-                <div class="uk-card uk-card-default uk-card-small uk-transition-toggle">
-                  <a href="{{ video.url | relative_url }}">
-                    <div class="uk-card-media-top uk-inline-clip uk-transition-toggle">
-                      <img src="{{ video.thumbnail | default: 'https://img.youtube.com/vi/' | append: video.youtube_id | append: '/hqdefault.jpg' }}" alt="{{ video.title }}">
-                      <div class="uk-transition-fade uk-position-cover uk-overlay uk-overlay-primary uk-flex uk-flex-center uk-flex-middle">
-                        <span uk-icon="icon: play-circle; ratio: 2"></span>
-                      </div>
-                    </div>
-                    <div class="uk-card-body uk-padding-small">
-                      <h3 class="uk-card-title uk-text-truncate">{{ video.title }}</h3>
-                      {% if video.category %}
-                      <p class="uk-text-meta">{{ video.category }}</p>
-                      {% endif %}
-                    </div>
-                  </a>
+    <div class="uk-child-width-1-1 uk-child-width-1-2@m uk-grid-small" uk-grid>
+      {% for video in site.videos %}
+        {% if video.url != page.url %}
+        <div>
+          <a href="{{ video.url }}" class="uk-link-reset">
+            <div class="uk-grid-small uk-flex-middle" uk-grid>
+              <!-- Thumbnail -->
+              <div class="uk-width-1-3@s">
+                <div class="uk-cover-container">
+                  <img src="{{ video.thumbnail }}" alt="{{ video.title }}" uk-cover>
+                  <canvas width="320" height="180"></canvas>
                 </div>
-              </li>
-              {% endfor %}
-            </ul>
-          </div>
+              </div>
 
-          <!-- Navigation arrows -->
-          <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-          <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+              <!-- Details -->
+              <div class="uk-width-expand">
+                <h4 class="uk-margin-remove">{{ video.title }}</h4>
+                <p class="uk-text-meta uk-margin-remove-top">
+                  {{ video.date | date: "%B %d, %Y" }}
+                </p>
+                <p class="uk-text-small uk-margin-remove-top">
+                  {{ video.description | truncate: 100 }}
+                </p>
+              </div>
+            </div>
+          </a>
         </div>
-
-        <!-- Dots navigation -->
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-      </div>
+        {% endif %}
+      {% endfor %}
     </div>
+
 
     </div></div>
 
