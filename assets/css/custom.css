@@ -3,7 +3,7 @@
 	background-color:#305c72;
 }
 main.homepageisaac {
-	background: url('{{ site.baseurl }}/assets/img/isaachortonbg.svg');
+	background: url('/assets/img/isaachortonbg.svg');
 }
 .uk-navbar-nav>li>a {
 	color:#000;
