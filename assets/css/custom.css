@@ -8,7 +8,7 @@ main.homepageisaac {
 .homepageisaac .uk-heading-medium, .homepageisaac .uk-heading-small {
 	color:#8197a4;
 }
-.homepageisaac .uk-heading-small .lights {
+.homepageisaac .uk-heading-small .lights, .homepageisaac .uk-heading-medium span {
 	color:#eee;
 }
 .homepageisaac .uk-card-secondary {
