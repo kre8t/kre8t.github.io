@@ -2,8 +2,8 @@
 .homepageisaac, .homepageisaac .uk-sticky.uk-active, .homepageisaac .uk-sticky-fixed, .homepageisaac .uk-section-default {
 	background-color:#305c72;
 }
-.homepageisaac, .homepageisaac .uk-sticky.uk-active, .homepageisaac .uk-sticky-fixed, .homepageisaac .uk-section-default {
-	background-color:#305c72;
+.uk-background-secondary .uk-sticky.uk-active, .uk-background-secondary .uk-sticky-fixed {
+	background-color:#222;
 }
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
