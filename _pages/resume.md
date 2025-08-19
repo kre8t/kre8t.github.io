@@ -5,7 +5,7 @@ layout: page
 subheading: Isaac Horton
 ---
 
-## Business Development, Team Leader, Technical Problem Solver, UI/UX Strategist, Product Manager, Marketing, Manufacturing
+## Visual Media Designer | Film, Motion & Digital
 
 Effective strategy realizes form and function in harmony.
 <hr>
