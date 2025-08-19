@@ -8,7 +8,7 @@
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
 }
-main.resume {
+main#resume {
 	background: url('/assets/img/turntablebg.svg');
 }
 .homepageisaac .uk-heading-medium, .homepageisaac .uk-heading-small {
