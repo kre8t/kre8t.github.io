@@ -364,6 +364,7 @@
 <style>
   #Label {
     animation: spin 1.8s linear infinite; /* 1.8s ≈ 33⅓ RPM */
+    animation-delay: 3s; /* waits 3 seconds before starting */
   }
 
   @keyframes spin {
