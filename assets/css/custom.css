@@ -3,7 +3,7 @@
 	background-color:#305c72;
 }
 .uk-background-secondary .uk-sticky.uk-active, .uk-background-secondary .uk-sticky-fixed {
-	background-color:#222;
+	background-color: rgba(34,34,34,.7);
 }
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
