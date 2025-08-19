@@ -18,6 +18,11 @@ main#resume {
 h2 {
 	font-size:1.2rem;
 }
+hr {
+	border-width:1px;
+	border-style:solid;
+	border-color:#eee;
+}
 .uk-sticky.uk-active h2 {
 	font-size:1rem;
 }
