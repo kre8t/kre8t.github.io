@@ -7,9 +7,11 @@
 }
 main.homepageisaac {
 	background: url('/assets/img/isaachortonbg.svg');
+	  background-attachment: fixed;
 }
 main#resume {
 	background: url('/assets/img/turntablebg.svg');
+	  background-attachment: fixed;
 }
 .homepageisaac .uk-heading-medium, .homepageisaac .uk-heading-small {
 	color:#8197a4;
