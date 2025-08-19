@@ -15,8 +15,11 @@ main#resume {
 	  background-size: cover;
 	  background-attachment: fixed;
 }
+h2 {
+	font-size:1.2rem;
+}
 .uk-sticky.uk-active h2 {
-	
+	font-size:1rem;
 }
 .homepageisaac .uk-heading-medium, .homepageisaac .uk-heading-small {
 	color:#8197a4;
