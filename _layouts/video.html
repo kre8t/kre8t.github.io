@@ -59,7 +59,7 @@ layout: no-header
 
 
   <div class="uk-width-2-3@m">
-    <h3 class="uk-heading-line uk-text-bold"><span>More Videos</span></h3>
+    <h2 class="uk-heading-line uk-text-bold"><span>More Videos</span></h2>
     <div class="uk-child-width-1-1 uk-child-width-1-2@m uk-grid-small" uk-grid>
       {% for video in site.videos %}
         {% if video.url != page.url %}
@@ -75,12 +75,9 @@ layout: no-header
               </div>
               <!-- Details -->
               <div class="uk-width-expand">
-                <h4 class="uk-margin-remove">{{ video.title }}</h4>
+                <h2 class="uk-margin-remove">{{ video.title }}</h2>
                 <p class="uk-text-meta uk-margin-remove-top">
                   {{ video.date | date: "%B %d, %Y" }}
-                </p>
-                <p class="uk-text-small uk-margin-remove-top">
-                  {{ video.description | truncate: 100 }}
                 </p>
               </div>
             </div>
