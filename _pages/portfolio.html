@@ -29,7 +29,7 @@ subheading: The works of Isaac Horton
         {% for website in site.websites reversed %}
         <h4>{{ website.title }} <a href="{{site.baseurl}}/websites/{{website.slug}}/" class="uk-button uk-button-secondary uk-button-small">view project</a></h4>
 
-    <div uk-grid uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
+    <div uk-grid>
       <div class="uk-width-1-3@m">
         <div uk-lightbox>
           <a href="{{ website.smallimage1 }}" data-alt="Image"><img src="{{ website.smallimage1 }}" alt="{{ website.title | downcase }} 1"></a>
