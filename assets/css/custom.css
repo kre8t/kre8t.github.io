@@ -5,12 +5,9 @@
 .uk-background-secondary .uk-sticky.uk-active, .uk-background-secondary .uk-sticky-fixed {
 	background-color: rgba(34,34,34,.7);
 }
-background.homepagebgbg {
-	background: url('/assets/img/isaachortonbgi.jpg');
-	  background-size: cover;
-}
+
 main.homepageisaac {
-/*	background: url('/assets/img/isaachortonbg.svg'); */
+	background: url('/assets/img/isaachortonbgi.jpg');
 	  background-size: cover;
 	  background-attachment: fixed;
 		background-color:transparent;

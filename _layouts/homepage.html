@@ -1,11 +1,12 @@
 <!doctype html>
 <html lang="" itemscope itemtype="https://schema.org/Article">
 	 {% include head.html %}
-	 <background class="homepagebgbg" id="{{ page.name | split: '.' | first | slugify }}">
-<main class="uk-light homepageisaac">
 
+<main id="{{ page.name | split: '.' | first | slugify }}" class="uk-light homepageisaac">
+<div id="spaceshipprobe">
   {{content}}
   {% include footer.html %}
+</div>
 </main>
-</background>
+
 </html>
