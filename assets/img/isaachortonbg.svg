@@ -12,7 +12,7 @@
       }
 
       .st2 {
-        fill: #6e9baf;
+        fill: #aaaaaa;
       }
 
       .st3 {
@@ -20,11 +20,11 @@
       }
 
       .st4 {
-        fill: #213751;
+        fill: #161513;
       }
 
       .st5 {
-        fill: #4e5f70;
+        fill: #343435;
       }
 
       .st6 {
