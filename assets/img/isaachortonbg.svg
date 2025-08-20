@@ -72,10 +72,10 @@
   0% {
     transform: translateX(0px) rotate(0deg);
   }
-  50% {
+  32% {
     transform: translateX(1160px) rotate(0deg); /* halfway point */
   }
-  85% {
+  65% {
     transform: translateX(2320px) rotate(18deg); /* finish movement+rotation at 17s */
   }
   100% {
