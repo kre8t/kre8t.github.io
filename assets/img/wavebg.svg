@@ -12,26 +12,23 @@
       }
       /* Apply to the element you want to animate */
 #wave {
-  animation: move-right 60s linear infinite,
-             wobble 3s ease-in-out infinite;
+  animation: wave-motion 60s linear infinite;
 }
 
-@keyframes move-right {
-  from {
-    transform: translateX(0);
-  }
-  to {
-    transform: translateX(1662px);
-  }
+@keyframes wave-motion {
+  0%   { transform: translate(0px,    0px); }
+  10%  { transform: translate(166px, -20px); }
+  20%  { transform: translate(332px,   0px); }
+  30%  { transform: translate(498px,  20px); }
+  40%  { transform: translate(664px,   0px); }
+  50%  { transform: translate(831px, -20px); }
+  60%  { transform: translate(997px,   0px); }
+  70%  { transform: translate(1163px, 20px); }
+  80%  { transform: translate(1329px,  0px); }
+  90%  { transform: translate(1495px,-20px); }
+  100% { transform: translate(1662px,  0px); }
 }
 
-@keyframes wobble {
-  0%   { transform: translateY(0)    rotate(0deg); }
-  25%  { transform: translateY(-10px) rotate(-2deg); }
-  50%  { transform: translateY(0)    rotate(0deg); }
-  75%  { transform: translateY(10px) rotate(2deg); }
-  100% { transform: translateY(0)    rotate(0deg); }
-}
 
     </style>
   </defs>
