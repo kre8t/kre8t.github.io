@@ -65,7 +65,7 @@
   </g>
   <style>
   #spaceship {
-  animation: moveAndRotate 18s linear infinite;
+  animation: moveAndRotate 22s linear infinite;
 }
 
 @keyframes moveAndRotate {
