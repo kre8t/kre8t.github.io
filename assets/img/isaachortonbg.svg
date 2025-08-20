@@ -65,19 +65,22 @@
   </g>
   <style>
   #spaceship {
-    animation: moveAndRotate 20s linear infinite;
-  }
+  animation: moveAndRotate 18s linear infinite;
+}
 
-  @keyframes moveAndRotate {
-    0% {
-      transform: translateX(0px) rotate(0deg);
-    }
-    50% {
-      transform: translateX(1160px) rotate(0deg); /* halfway across, no rotation yet */
-    }
-    100% {
-      transform: translateX(2320px) rotate(18deg); /* full distance + rotated */
-    }
+@keyframes moveAndRotate {
+  0% {
+    transform: translateX(0px) rotate(0deg);
   }
+  50% {
+    transform: translateX(1160px) rotate(0deg); /* halfway point */
+  }
+  85% {
+    transform: translateX(2320px) rotate(18deg); /* finish movement+rotation at 17s */
+  }
+  100% {
+    transform: translateX(2320px) rotate(18deg); /* pause 3s before looping */
+  }
+}
 </style>
 </svg>
