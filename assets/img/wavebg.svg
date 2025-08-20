@@ -17,16 +17,26 @@
 
 @keyframes wave-motion {
   0%   { transform: translate(0px,    0px); }
-  10%  { transform: translate(166px, -20px); }
-  20%  { transform: translate(332px,   0px); }
-  30%  { transform: translate(498px,  20px); }
-  40%  { transform: translate(664px,   0px); }
-  50%  { transform: translate(831px, -20px); }
-  60%  { transform: translate(997px,   0px); }
-  70%  { transform: translate(1163px, 20px); }
-  80%  { transform: translate(1329px,  0px); }
-  90%  { transform: translate(1495px,-20px); }
-  100% { transform: translate(1662px,  0px); }
+  5%   { transform: translate(83px,  -20px); }
+  10%  { transform: translate(166px,  0px); }
+  15%  { transform: translate(249px,  20px); }
+  20%  { transform: translate(332px,  0px); }
+  25%  { transform: translate(415px, -20px); }
+  30%  { transform: translate(498px,  0px); }
+  35%  { transform: translate(581px,  20px); }
+  40%  { transform: translate(664px,  0px); }
+  45%  { transform: translate(747px, -20px); }
+  50%  { transform: translate(831px,  0px); }
+  55%  { transform: translate(914px,  20px); }
+  60%  { transform: translate(997px,  0px); }
+  65%  { transform: translate(1080px,-20px); }
+  70%  { transform: translate(1163px, 0px); }
+  75%  { transform: translate(1246px,20px); }
+  80%  { transform: translate(1329px, 0px); }
+  85%  { transform: translate(1412px,-20px); }
+  90%  { transform: translate(1495px, 0px); }
+  95%  { transform: translate(1578px,20px); }
+  100% { transform: translate(1662px, 0px); }
 }
 
 
