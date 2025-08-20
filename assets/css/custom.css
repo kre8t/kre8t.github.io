@@ -15,7 +15,7 @@ main#resume {
 	  background-size: cover;
 	  background-attachment: fixed;
 }
-main#contact uk-background-secondary {
+main#contact uk-background-secondary, .overlay {
 	background-color: #201d1d;
 }
 h2 {
