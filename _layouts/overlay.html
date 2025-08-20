@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="" itemscope itemtype="https://schema.org/Article">
   {% include head.html %}
-<main id="{{ page.name | split: '.' | first | slugify }}">
+<main id="{{ page.name | split: '.' | first | slugify }}" class="uk-light overlay">
 
   {{content}}
   {% include footer.html %}

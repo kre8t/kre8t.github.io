@@ -15,6 +15,9 @@ main#resume {
 	  background-size: cover;
 	  background-attachment: fixed;
 }
+main#contact uk-background-secondary {
+	background-color: #201d1d;
+}
 h2 {
 	font-size:1.2rem;
 }
