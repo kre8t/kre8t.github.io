@@ -5,16 +5,18 @@ layout: portfoliomain
 subheading: Video is my passion
 ---
 
-<h1>YouTube Channels</h1>
-<div class="channels-grid">
-  {% for channel in site.youtube_channels %}
-  <div class="channel-card">
-    <a href="{{ channel.url }}">
-      {% if channel.logo %}
-      <img src="{{ channel.logo }}" alt="{{ channel.title }} logo">
-      {% endif %}
-      <h2>{{ channel.title }}</h2>
-    </a>
+<div class="uk-container uk-margin">
+  <h4>YouTube Channels</h4>
+  <div class="portfolio-grid" uk-grid>
+    {% for channel in site.youtube_channels %}
+    <div class="channel-card">
+      <a href="{{ channel.url }}">
+        {% if channel.logo %}
+        <img src="{{ channel.logo }}" alt="{{ channel.title }} logo">
+        {% endif %}
+        <h2>{{ channel.title }}</h2>
+      </a>
+    </div>
+    {% endfor %}
   </div>
-  {% endfor %}
 </div>
