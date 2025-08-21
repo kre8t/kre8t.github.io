@@ -1,6 +1,6 @@
 ---
 title: "Tartarian World"
-logo: "/assets/img/youtube/sonus-natura-logo.png"
+logo: "/assets/img/youtube/tartarianworld.jpg"
 brand_colors:
   - "#2E8B57"
   - "#A9D6C6"
@@ -10,7 +10,7 @@ fonts:
   - "Merriweather"
 downloadables:
   - name: "Logo Pack"
-    file: "/assets/downloads/sonus-natura-logos.zip"
+    file: "/assets/downloads/tartaria-logos.zip"
   - name: "Brand Guidelines"
     file: "/assets/downloads/sonus-natura-styleguide.pdf"
 layout: youtube_channel
