@@ -4,7 +4,7 @@ tagline: "History, Freedom, and the Hidden Stories of Civilization"
 layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/liberty.jpg
-colors:
+brand_colors:
   - "#1E2A38" # Deep Navy
   - "#D4AF37" # Liberty Gold
   - "#C44536" # Brick Red
