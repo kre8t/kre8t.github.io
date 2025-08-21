@@ -4,7 +4,7 @@ tagline: "Learning the Power of Plants"
 layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/herbschool.jpg
-colors:
+brand_colors:
   - "#2E7D32" # Herbal Green
   - "#A5D6A7" # Mint Light
   - "#8D6E63" # Earth Brown
