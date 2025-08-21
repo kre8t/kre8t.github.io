@@ -5,7 +5,7 @@ layout: channel
 date: 2025-08-21
 logo: /assets/img/youtube/cooktheplanet/cooktheplanet.jpg
 banner: /assets/images/channels/cook-the-planet-banner.jpg
-colors:
+brand_colors:
   - "#3A5A40" # Earthy Green
   - "#D64541" # Spice Red
   - "#FFD447" # Citrus Yellow
