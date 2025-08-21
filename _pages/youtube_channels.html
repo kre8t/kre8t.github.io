@@ -6,7 +6,6 @@ subheading: Video is my passion
 ---
 
 <div class="uk-container uk-margin">
-  <h4>YouTube Channels</h4>
   <div class="portfolio-grid uk-child-width-1-2@m" uk-grid>
     {% for channel in site.youtube_channels %}
     <div class="channel-card">
@@ -14,7 +13,6 @@ subheading: Video is my passion
         {% if channel.logo %}
         <img src="{{ channel.logo }}" alt="{{ channel.title }} logo">
         {% endif %}
-        <h2>{{ channel.title }}</h2>
       </a>
     </div>
     {% endfor %}
