@@ -1,7 +1,7 @@
 ---
 title: "Cook The Planet"
 tagline: "Bold Flavors, Global Recipes, and Sustainable Cooking"
-layout: channel
+layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/cooktheplanet/cooktheplanet.jpg
 brand_colors:
