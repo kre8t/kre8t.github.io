@@ -5,17 +5,18 @@ main:
     url: /portfolio
   - title: "Resume"
     url: /resume
-  - title: "Contact"
-    url: /contact
   - title: "Channels"
     url: /youtube
+  - title: "Contact"
+    url: /contact
+
 
 mobile:
   - title: "Portfolio"
     url: /portfolio
   - title: "Resume"
     url: /resume
-  - title: "Contact"
-    url: /contact
   - title: "Channels"
     url: /youtube
+  - title: "Contact"
+    url: /contact
