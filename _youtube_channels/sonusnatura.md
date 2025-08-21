@@ -1,6 +1,6 @@
 ---
 title: "Sonus Natura"
-logo: "/assets/images/youtube/sonusnatura.jpg"
+logo: "/assets/img/youtube/sonusnatura.jpg"
 brand_colors:
   - "#2E7D6D"   # Deep Forest Green
   - "#A7D9C9"   # Soft Mint Green
