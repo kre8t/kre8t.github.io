@@ -7,7 +7,7 @@ main:
     url: /resume
   - title: "Contact"
     url: /contact
-  - title: "Youtube Channels"
+  - title: "Channels"
     url: /youtube
 
 mobile:
@@ -17,5 +17,5 @@ mobile:
     url: /resume
   - title: "Contact"
     url: /contact
-  - title: "Youtube Channels"
+  - title: "Channels"
     url: /youtube
