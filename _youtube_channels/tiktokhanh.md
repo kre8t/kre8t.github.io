@@ -1,36 +1,36 @@
 ---
-title: "Liberty Explored"
-tagline: "History, Freedom, and the Hidden Stories of Civilization"
+title: "Tik Tok Hanh"
+tagline: "Short, Sharp, and Seriously Fun"
 layout: youtube_channel
 date: 2025-08-21
-logo: /assets/img/youtube/liberty.jpg
+logo: /assets/img/youtube/tiktokhanh.jpg
 brand_colors:
-  - "#1E2A38" # Deep Navy
-  - "#D4AF37" # Liberty Gold
-  - "#C44536" # Brick Red
-  - "#ECECEC" # Light Gray
-  - "#000000" # Black
+  - "#25F4EE" # TikTok Aqua
+  - "#FE2C55" # TikTok Red
+  - "#000000" # Deep Black
+  - "#FFFFFF" # Pure White
+  - "#121212" # Charcoal
 fonts:
-  heading: "Merriweather Sans"
-  body: "Source Serif Pro"
+  heading: "Poppins"
+  body: "Inter"
 categories:
-  - "Ancient History"
-  - "Lost Civilizations"
-  - "Freedom & Philosophy"
-  - "Hidden Knowledge"
-  - "Modern Connections"
+  - "Comedy Shorts"
+  - "Behind the Scenes"
+  - "Quick Recipes"
+  - "Life Hacks"
+  - "Random Fun"
 downloads:
   - label: "Logo Pack"
-    file: /assets/downloads/liberty-explored-logo-pack.zip
+    file: /assets/downloads/tik-tok-hanh-logo-pack.zip
   - label: "Channel Banner"
-    file: /assets/downloads/liberty-explored-banner.zip
+    file: /assets/downloads/tik-tok-hanh-banner.zip
   - label: "Typography & Color Guide"
-    file: /assets/downloads/liberty-explored-style-guide.pdf
+    file: /assets/downloads/tik-tok-hanh-style-guide.pdf
   - label: "Thumbnail Templates"
-    file: /assets/downloads/liberty-explored-thumbnails.zip
-youtube_url: "https://www.youtube.com/@LibertyExplored"
+    file: /assets/downloads/tik-tok-hanh-thumbnails.zip
+youtube_url: "https://www.youtube.com/@TikTokHanh"
 ---
 
-**Liberty Explored** is a channel dedicated to uncovering the truths, myths, and forgotten stories that shape our understanding of freedom and civilization. From ancient empires and lost technologies to philosophical movements and the foundations of modern liberty, the channel connects the dots across time and culture.  
+**Tik Tok Hanh** is a channel built on pure creative energy — fast-paced, funny, and endlessly shareable. From comedy sketches and quirky moments to quick recipes and off-the-cuff creativity, the channel captures the spirit of TikTok and spins it into longer-form fun for YouTube.  
 
-With a focus on curiosity and critical thinking, **Liberty Explored** invites viewers to question, learn, and rediscover history through a fresh lens — blending storytelling, research, and engaging visuals to reveal how the past still echoes in the present.
+It’s about entertainment without rules: spontaneous, surprising, and designed to make you smile (and sometimes think) in under a few minutes. **Tik Tok Hanh** is where playfulness meets personality, keeping things bold, colorful, and always a little unexpected.
