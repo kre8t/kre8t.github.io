@@ -20,6 +20,10 @@ collections:
     title: Animation & Video
     output: true
     permalink: /portfolio/videos/:title/
+  youtube_channels:
+    output: true
+    permalink: /youtube/:path/
+    title: Youtube Channels
 defaults:
 - scope:
     path: ''
