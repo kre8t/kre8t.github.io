@@ -1,7 +1,7 @@
 ---
 title: "Herb School"
 tagline: "Learning the Power of Plants"
-layout: channel
+layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/herbschool.jpg
 colors:
