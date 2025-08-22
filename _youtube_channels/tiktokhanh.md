@@ -11,8 +11,8 @@ brand_colors:
   - "#FFFFFF" # Pure White
   - "#121212" # Charcoal
 fonts:
-  heading: "Poppins"
-  body: "Inter"
+  - "Poppins"
+  - "Inter"
 categories:
   - "Comedy Shorts"
   - "Behind the Scenes"
