@@ -23,18 +23,18 @@ Each video blends immersive soundscapes with serene visuals, creating a space fo
 ## Brand Description
 The Sonus Natura identity reflects peace, balance, and connection to the natural world. The design language is clean, spacious, and soothing, mirroring the experience of being outdoors in untouched landscapes.
 
-### Logo
+## Logo
 The logo features flowing organic shapes inspired by leaves and waves, paired with clean typography to represent calm and modern clarity.
 
-### Color Palette
+## Color Palette
 - **Deep Forest Green (#2E7D6D):** Stability, grounding, nature.  
 - **Soft Mint Green (#A7D9C9):** Freshness, air, breath.  
 - **Natural Off-White (#FDFBF7):** Simplicity, openness, purity.  
 - **Slate Gray (#4B5D67):** Depth, balance, professionalism.  
 
-### Typography
+## Typography
 - **Lora:** Used for headings and long-form content, chosen for its elegance and readability.  
 - **Montserrat:** Used for body text and interface elements, bringing a clean, modern contrast.  
 
-### Applications
+## Applications
 The brand is designed to extend across YouTube thumbnails, social media, and downloadable resources, creating a consistent and

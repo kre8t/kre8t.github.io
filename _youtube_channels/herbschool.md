@@ -11,8 +11,8 @@ brand_colors:
   - "#F5F5F5" # Soft White
   - "#37474F" # Slate Gray
 fonts:
-  heading: "Playfair Display"
-  body: "Open Sans"
+  - "Playfair Display"
+  - "Open Sans"
 categories:
   - "Medicinal Plants"
   - "Culinary Herbs"
