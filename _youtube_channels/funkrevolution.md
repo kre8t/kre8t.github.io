@@ -11,8 +11,8 @@ brand_colors:
   - "#0F0F0F" # Funk Black
   - "#FFFFFF" # White Pop
 fonts:
-  heading: "Bebas Neue"
-  body: "Montserrat"
+  - "Bebas Neue"
+  - "Montserrat"
 categories:
   - "Funk Classics"
   - "Modern Jam Sessions"
