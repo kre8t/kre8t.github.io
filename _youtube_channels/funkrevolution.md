@@ -37,4 +37,21 @@ youtube_url: "https://www.youtube.com/@FunkRevolution"
 Each video is an invitation to feel the beat, learn the roots, and join the revolution of sound that never goes out of style.  
 
 ## Visual Identity  
-The **Funk Revolution** identity is bold and kinet
+The **Funk Revolution** identity is bold and kinetic — rich purples and magentas paired with striking gold to echo the nightlife and vibrancy of funk music. Fonts are expressive yet clean, pairing a strong display type for headings with a modern sans serif for readability.  
+
+## Content Focus  
+- 🎸 Funk Classics & Rare Cuts  
+- 🥁 Jam-Filled Performances  
+- 🎤 Artist Profiles & Interviews  
+- 🎶 History of Funk & Soul  
+- 🌍 The Global Groove  
+
+## Brand Materials  
+To keep the Funk Revolution look consistent across all platforms, downloadable brand assets are provided:  
+
+- Logo Pack (Color, B/W, Icon)  
+- Channel Banner  
+- Typography & Color Guide  
+- Thumbnail Templates  
+
+---
