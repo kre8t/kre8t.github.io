@@ -1,7 +1,7 @@
 ---
 title: "Funk Revolution"
 tagline: "Groove, Soul, and the Sound of Movement"
-layout: channel
+layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/funkrevolution.jpg
 colors:
