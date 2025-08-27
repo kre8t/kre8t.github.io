@@ -4,7 +4,7 @@ tagline: "Groove, Soul, and the Sound of Movement"
 layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/funkrevolution.jpg
-colors:
+brand_colors:
   - "#3D155F" # Deep Purple Funk
   - "#DF2B63" # Hot Magenta
   - "#F4C542" # Golden Groove
