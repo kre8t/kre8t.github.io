@@ -11,8 +11,8 @@ brand_colors:
   - "#ECECEC" # Light Gray
   - "#000000" # Black
 fonts:
-  heading: "Merriweather Sans"
-  body: "Source Serif Pro"
+  - "Merriweather Sans"
+  - "Source Serif Pro"
 categories:
   - "Ancient History"
   - "Lost Civilizations"

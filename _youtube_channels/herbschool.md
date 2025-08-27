@@ -4,15 +4,15 @@ tagline: "Learning the Power of Plants"
 layout: youtube_channel
 date: 2025-08-21
 logo: /assets/img/youtube/herbschool.jpg
-colors:
+brand_colors:
   - "#2E7D32" # Herbal Green
   - "#A5D6A7" # Mint Light
   - "#8D6E63" # Earth Brown
   - "#F5F5F5" # Soft White
   - "#37474F" # Slate Gray
 fonts:
-  heading: "Playfair Display"
-  body: "Open Sans"
+  - "Playfair Display"
+  - "Open Sans"
 categories:
   - "Medicinal Plants"
   - "Culinary Herbs"
