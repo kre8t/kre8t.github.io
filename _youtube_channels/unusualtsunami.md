@@ -3,7 +3,7 @@ title: "Unusual Tsunami"
 tagline: "Crashing Conversations. Unexpected Ideas."
 layout: youtube_channel
 date: 2025-08-21
-logo: /assets/images/channels/unusual-tsunami-logo.png
+logo: /assets/img/youtube/unusualtsunami.jpg
 brand_colors:
   - "#0D47A1" # Deep Debate Blue
   - "#42A5F5" # Wave Blue
