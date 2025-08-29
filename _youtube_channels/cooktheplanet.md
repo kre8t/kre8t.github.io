@@ -11,8 +11,8 @@ brand_colors:
   - "#2E2E2E" # Charcoal
   - "#FAF9F6" # Off-White
 fonts:
-  heading: "Oswald"
-  body: "Lora"
+  - "Oswald"
+  - "Lora"
 categories:
   - "Pepper Deep Dives"
   - "Global Street Food"
