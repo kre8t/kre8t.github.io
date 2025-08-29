@@ -9,7 +9,6 @@ brand_colors:
   - "#212121" # Midnight Black
   - "#616161" # Concrete Gray
   - "#FFD600" # Rebel Yellow
-  - "#FFFFFF" # White
 fonts:
   heading: "Anton"
   body: "Roboto"
