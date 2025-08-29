@@ -10,8 +10,8 @@ brand_colors:
   - "#616161" # Concrete Gray
   - "#FFD600" # Rebel Yellow
 fonts:
-  heading: "Anton"
-  body: "Roboto"
+  - "Anton"
+  - "Roboto"
 categories:
   - "Quitting Stories"
   - "Life After the Grind"
