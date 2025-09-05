@@ -59,12 +59,18 @@ layout: default
   </section>
   </div>
 
+  <div>
     {% if page.logo %}
     <div>
        <img src="{{ page.logo }}" alt="{{ page.title }} logo" class="channel-logo">
     </div>
      {% endif %}
-
+     {% if page.youtube_url %}
+     <div>
+        <a href="{{ page.youtube_url }}">{{ page.youtube_url }}</a>
+     </div>
+      {% endif %}
+    </div>
      <div uk-grid class="uk-grid-collapse">
      {% if page.brand_colors %}
 
