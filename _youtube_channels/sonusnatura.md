@@ -15,6 +15,7 @@ downloadables:
   - name: "Brand Guidelines"
     file: "/assets/downloads/sonus-natura-styleguide.pdf"
 layout: youtube_channel
+youtube_url: "https://www.youtube.com/@sonusnatura"
 ---
 
 **Sonus Natura** is a YouTube channel dedicated to the restorative power of natural sound.  
