@@ -14,5 +14,6 @@ downloadables:
   - name: "Brand Guidelines"
     file: "/assets/downloads/sonus-natura-styleguide.pdf"
 layout: youtube_channel
+youtube_url: "https://www.youtube.com/@tartarian-world"
 ---
 Sonus Natura is a nature-inspired sound and ambient music channel designed to...
