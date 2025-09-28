@@ -13,6 +13,6 @@ subheading: Tell me something good
 <p>Instagram: <a href="https://instagram.com/the_natural_isaac">@the_natural_isaac</a></p>
 </div></div>
 <div class="uk-width-1-2@m">
-{% include contact-form.html %}
+
 </div>
 </div>
