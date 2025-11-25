@@ -24,7 +24,7 @@ subheading: I write and illustrate
     {% for childrensbook in site.childrens_books %}
     <div>
     <div class="channel-card uk-box-shadow-medium">
-      <a href="{{ book.url }}">
+      <a href="{{ childrensbook.url }}">
         {% if childrensbook.cover %}
         <img src="{{ childrensbook.cover }}" alt="{{ childrensbook.title }} logo">
         {% endif %}
