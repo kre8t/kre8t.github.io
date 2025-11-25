@@ -20,23 +20,17 @@ layout: default
   </div>
 
   <div>
-    {% if page.logo %}
+    {% if page.cover %}
     <div>
-       <a href="{{ page.youtube_url }}"><img src="{{ page.logo }}" alt="{{ page.title }} logo" class="channel-logo"></a>
+       <a href="{{ page.book_url }}"><img src="{{ page.cover }}" alt="{{ page.title }} cover" class="book-cover"></a>
     </div>
      {% endif %}
-     {% if page.youtube_url %}
+     {% if page.book_url %}
      <div>
-        <a class="uk-button uk-button-secondary uk-width-1-1" href="{{ page.youtube_url }}">{{ page.youtube_url }}</a>
+        <a class="uk-button uk-button-secondary uk-width-1-1" href="{{ page.youtube_url }}">{{ page.book_url }}</a>
      </div>
       {% endif %}
     </div>
-     <div uk-grid class="uk-grid-collapse">
-     {% if page.brand_colors %}
 
-      <div style="background-color:{{ page.brand_colors }}"> &nbsp;</div>
-
-      {% endif %}
-     </div>
 </article>
 </div>
