@@ -7,12 +7,12 @@ subheading: I write and illustrate
 
 <div class="uk-container uk-margin">
   <div class="portfolio-grid uk-child-width-1-4@m" uk-grid>
-    {% for channel in site.books %}
+    {% for book in site.books %}
     <div>
     <div class="channel-card uk-box-shadow-medium">
       <a href="{{ channel.url }}">
-        {% if channel.logo %}
-        <img src="{{ channel.logo }}" alt="{{ channel.title }} logo">
+        {% if book.cover %}
+        <img src="{{ book.cover }}" alt="{{ book.title }} logo">
         {% endif %}
       </a>
     </div>
