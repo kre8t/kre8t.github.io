@@ -1,5 +1,5 @@
 ---
-title: "Otto The Octopus
+title: "Otto The Octopus"
 tagline: "Finds a Guitar"
 layout: books
 date: 2025-11-09
