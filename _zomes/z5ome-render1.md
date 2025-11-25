@@ -3,7 +3,7 @@ title: "5 meter Zome Design"
 tagline: "From z5ome Tool"
 layout: zomes
 date: 2025-11-10
-img: /assets/img/Zomes/zome8x10.jpg
+img: /assets/img/zomes/zome8x10.jpg
 book_url: "https://a.co/d/fJOzwd9"
 ---
 
