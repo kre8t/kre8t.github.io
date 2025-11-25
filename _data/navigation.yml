@@ -9,6 +9,8 @@ main:
     url: /youtube
   - title: "Books"
     url: /books
+  - title: "Zomes"
+    url: /zomes
   - title: "Contact"
     url: /contact
 
@@ -22,5 +24,7 @@ mobile:
     url: /youtube
   - title: "Books"
     url: /books
+  - title: "Zomes"
+    url: /zomes
   - title: "Contact"
     url: /contact

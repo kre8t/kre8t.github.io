@@ -32,6 +32,10 @@ collections:
     output: true
     permalink: /childrensbooks/:path/
     title: Children's Books
+  zomes:
+    output: true
+    permalink: /zomes/:path/
+    title: Zomes
 defaults:
 - scope:
     path: ''
