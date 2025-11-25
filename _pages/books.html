@@ -10,7 +10,7 @@ subheading: I write and illustrate
     {% for book in site.books %}
     <div>
     <div class="channel-card uk-box-shadow-medium">
-      <a href="{{ channel.url }}">
+      <a href="{{ book.url }}">
         {% if book.cover %}
         <img src="{{ book.cover }}" alt="{{ book.title }} logo">
         {% endif %}
