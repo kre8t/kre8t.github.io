@@ -19,4 +19,19 @@ subheading: I write and illustrate
     </div>
     {% endfor %}
   </div>
+
+  <div class="portfolio-grid uk-child-width-1-4@m" uk-grid>
+    {% for childrensbook in site.childrens_books %}
+    <div>
+    <div class="channel-card uk-box-shadow-medium">
+      <a href="{{ book.url }}">
+        {% if childrensbook.cover %}
+        <img src="{{ childrensbook.cover }}" alt="{{ childrensbook.title }} logo">
+        {% endif %}
+      </a>
+    </div>
+    </div>
+    {% endfor %}
+  </div>
+
 </div>

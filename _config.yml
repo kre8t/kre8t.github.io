@@ -28,6 +28,10 @@ collections:
     output: true
     permalink: /books/:path/
     title: Books
+  childrens_books:
+    output: true
+    permalink: /childrensbooks/:path/
+    title: Children's Books
 defaults:
 - scope:
     path: ''
