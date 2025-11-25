@@ -1,9 +1,9 @@
 ---
 title: "Dancing With the Devil"
 tagline: "Flirting With Catastrophe"
-layout: youtube_channel
+layout: books
 date: 2025-08-21
-logo: /assets/img/youtube/cooktheplanet/cooktheplanet.jpg
+logo: /assets/img/books/dancingdevilbook.jpg
 brand_colors:
   - "#3A5A40" # Earthy Green
   - "#D64541" # Spice Red
