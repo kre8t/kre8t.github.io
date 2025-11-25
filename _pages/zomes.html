@@ -1,0 +1,26 @@
+---
+title: "Zomes"
+permalink: /zomes/
+layout: portfoliomain
+subheading: Inspired by the geometry of nature, zomes echo organic beauty while offering practical advantages like excellent water shedding and that stunning flower-like apex at the roof.
+---
+
+<div class="uk-container uk-margin">
+  <h4>Zomes</h4>
+  <div class="portfolio-grid uk-child-width-1-4@m" uk-grid>
+    {% for zome in site.zomes reversed %}
+    <div>
+    <div class="channel-card uk-box-shadow-medium">
+      <a href="{{ zome.url }}">
+        {% if zome.img %}
+        <img src="{{ zome.img }}" alt="{{ zome.title }} logo">
+        {% endif %}
+      </a>
+    </div>
+    </div>
+    {% endfor %}
+  </div>
+
+
+
+</div>

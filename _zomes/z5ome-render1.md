@@ -1,9 +1,9 @@
 ---
-title: "Cats in Space"
-tagline: "All Over the Place"
-layout: books
+title: "5 meter Zome Design"
+tagline: "From z5ome Tool"
+layout: zomes
 date: 2025-11-10
-cover: /assets/img/childrensbooks/catsinspace.jpg
+img: /assets/img/Zomes/zome8x10.jpg
 book_url: "https://a.co/d/fJOzwd9"
 ---
 
