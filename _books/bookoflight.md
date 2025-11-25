@@ -2,9 +2,8 @@
 title: "Book of Light"
 tagline: "125 Sacred Reflections from the Wisdom of the Ages"
 layout: books
-date: 2025-08-21
+date: 2025-10-28
 cover: /assets/img/books/bookoflight.jpg
-
 book_url: "https://a.co/d/eNTPLts"
 ---
 

@@ -2,9 +2,9 @@
 title: "Dancing With the Devil"
 tagline: "Flirting With Catastrophe"
 layout: books
-date: 2025-08-21
+date: 2025-11-12
 cover: /assets/img/books/dancingdevilbook.jpg
-book_url: "https://a.co/d/4CxaCBn"
+book_url: "https://a.co/d/7NQH47U"
 ---
 
 Dancing With The Devil - Flirting With Catastrophe is a gripping exploration of the great unraveling of our age; the metacrisis. From collapsing institutions to runaway technologies, from the subtle erosion of truth to the accelerating risks woven into every layer of society, this book exposes the hidden hand of Moloch - the destructive force that thrives on competition, fragmentation, and deception.
