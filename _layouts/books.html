@@ -16,6 +16,11 @@ layout: default
 
   <section class="channel-description">
     {{ content }}
+    {% if page.book_url %}
+    <div>
+      Buy this book <a href="{{ page.book_url }}">{{ page.title }}</a>
+    </div>
+     {% endif %}
   </section>
   </div>
 
@@ -25,11 +30,7 @@ layout: default
        <a href="{{ page.book_url }}"><img src="{{ page.cover }}" alt="{{ page.title }} cover" class="book-cover"></a>
     </div>
      {% endif %}
-     {% if page.book_url %}
-     <div>
-        <a class="uk-width-1-1" href="{{ page.book_url }}">{{ page.book_url }}</a>
-     </div>
-      {% endif %}
+
     </div>
 
 </article>
