@@ -8,8 +8,10 @@ subheading: Tell me something good
 <div uk-grid>
 <div class="uk-width-1-2@m ">
 <div>
+<p>email: <img src="{{"/assets/img/ihorton-email.svg" | relative_url}}" width="196" height="18" alt="ihorton.books@gmail.com email" class="uk-inline uk-margin-left-small" uk-svg></p>
+
 <p>email: <img src="{{"/assets/img/isaac-email.svg" | relative_url}}" width="218" height="16" alt="isaac email" class="uk-inline uk-margin-left-small" uk-svg></p>
-<p>Children's books email: <img src="{{"/assets/img/ihorton-email.svg" | relative_url}}" width="196" height="18" alt="i.horton email" class="uk-inline uk-margin-left-small" uk-svg></p>
+
 <p>Zomes email: <img src="{{"/assets/img/zome-email.svg" | relative_url}}" width="196" height="18" alt="zomes email" class="uk-inline uk-margin-left-small" uk-svg></p>
 
 <p>Twitter: <a href="https://twitter.com/tik_tok_hanh">@tik_tok_hanh</a></p>
