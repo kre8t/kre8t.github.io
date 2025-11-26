@@ -4,7 +4,7 @@ tagline: "And The Lost Journal of George Hearst"
 layout: books
 date: 2025-11-26
 cover: /assets/img/books/bookofsymbols.jpg
-book_url: "https://a.co/d/8GTHAgP"
+book_url: "https://a.co/d/6EYHQL8"
 ---
 
 In the summer of 1984, twelve-year-old Isaac spends his days exploring the windswept beaches of Morro Bay with a new metal detector he received for his birthday. The California coast feels endless and full of secrets; and when the device leads him to a buried box in the sand, his life changes forever. Inside the ancient container lies an old, weathered leather journal signed by George Hearst, founder of the Hearst empire, along with a collection of strange maps that show a world that should not exist. The continents look familiar, yet the markings reveal lost cities, star-shaped fortresses, and forgotten coastlines. Each page seems to whisper that history is not what it seems.
