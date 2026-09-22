@@ -31,6 +31,6 @@ downloads:
 youtube_url: "https://www.youtube.com/@CookThePlanet"
 ---
 
-Cook The Planet is a food adventure channel dedicated to exploring flavors from every corner of the globe. Each episode dives into authentic world cuisines, sustainable cooking practices, and the creative use of spices, peppers, and herbs. From fire-roasted street food to refined kitchen experiments, **Cook The Planet** is about passion, community, and the joy of discovery through food.  
+Cook The Planet is a cooking and food adventure channel dedicated to exploring flavors from every corner of the globe. Each episode dives into authentic world cuisines, sustainable cooking practices, and the creative use of spices, peppers, and herbs. From fire-roasted street food to refined kitchen experiments, **Cook The Planet** is about passion, community, and the joy of discovery through food.  
 
 This channel connects global traditions with modern kitchens, showing how anyone can bring the taste of the world into their own home while supporting local, seasonal, and sustainable food practices.
